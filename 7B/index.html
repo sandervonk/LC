@@ -1,301 +1,390 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lon Capa 7B | Guided Solutions</title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <link rel="icon" href="/me/img/favicon/favicon.png" />
+    <link rel="shortcut icon" href="/me/img/favicon/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      href="/me/img/favicon/favicon-dark.png"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="shortcut icon"
+      href="/me/img/favicon-dark/favicon.svg"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: light)"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lon Capa 7B | Questions</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><h1 id="lon-capa-7b--question-work">Lon Capa 7B | Question Work</h1>
-<blockquote>
-<p>By Sander Vonk</p>
-</blockquote>
-<h1 id="lon-capa-7b---question-1">*Lon Capa 7B - Question 1</h1>
-<blockquote>
-<p>MCQ Reasoning</p>
-</blockquote>
-<p>“The moment of inertia of a solid disk can never be the same as that for a solid sphere.”</p>
-<blockquote>
-<p>No, they both have mass and radius in the equation, so even though they may be different shapes, since they dont have any other constraints, they can always be the same with the right masses or radii</p>
-</blockquote>
-<p>“The linear force equations do not have angular analogues.”</p>
-<blockquote>
-<p>N/A to this concept</p>
-</blockquote>
-<p>“The moment of inertia of a sphere is less if it is hollow than if it is solid.”</p>
-<blockquote>
-<p>No, it is greater if it is hollow (check the equations)</p>
-</blockquote>
-<p>“A solid ball rolls down a slope faster than a hollow ball.”</p>
-<blockquote>
-<p>No, with the same masses and radii, the coeff on the hollow ball is greater, so in the equation, the velocity would have to be smaller to compensate</p>
-</blockquote>
-<p>“The way mass is distributed affects the moment of inertia.”</p>
-<blockquote>
-<p>True, with the same mass and shape, for example having a cylinder with a hollow center, w/ same mass and radius, just a different distribution, will have a higher moment of inertia than its associated cylinder</p>
-</blockquote>
-<h1 id="lon-capa-7b---question-2">*Lon Capa 7B - Question 2</h1>
-<blockquote>
-<p>Question: “An automobile is traveling at v = 46 m/s and has wheels with radius R = 24.6 cm. Assuming that the wheels are disks which roll without slipping and have a mass m = 15 kg, what is the kinetic energy of rotation of the four tires in Joules?”</p>
-</blockquote>
-<blockquote>
-<p>Variables:<br>
-v = 46 m/s<br>
-R = 24.6 cm<br>
-m = 15 kg<br>
-n = 4 tires</p>
-</blockquote>
-<p>KE = (0.5 * I * ω^2) * n</p>
-<blockquote>
-<p>Using the moment of inertia for a disk / cylinder</p>
-</blockquote>
-<p>I = 0.5 * m * R^2</p>
-<blockquote>
-<p>Subbing it back into the original equation</p>
-</blockquote>
-<p>KE = (0.5 * (0.5 * m * R^2) * ω^2) * n</p>
-<blockquote>
-<p>however, we don’t know the angular velocity, only the transpositional velocity, so let’s find that</p>
-</blockquote>
-<p>ω = v/R</p>
-<blockquote>
-<p>now we can add this back into the equation:</p>
-</blockquote>
-<p>KE = (0.5 * (0.5 * m * R^2) * (v/R)^2) * n</p>
-<blockquote>
-<p>with some rewriting we get:</p>
-</blockquote>
-<p>KE = (0.5 * (0.5 * m * R<sup>2)/(R</sup>2) * v^2) * n</p>
-<blockquote>
-<p>Now we simplify:</p>
-</blockquote>
-<p>KE = 0.25 * m * v^2 * n</p>
-<blockquote>
-<p>and just solve with your numbers!</p>
-</blockquote>
-<blockquote>
-<p>for my example:</p>
-</blockquote>
-<p>KE = 0.25 * 15 kg * (46 m/s)^2 * 4</p>
-<p>KE = 15 kg * (46 m/s)^2</p>
-<p>KE = <code>31740 J</code></p>
-<h1 id="lon-capa-7b--question-3---rot-nrg3">*Lon Capa 7B | Question 3 - Rot NRG3</h1>
-<blockquote>
-<p>Question: “Some objects with different shapes, masses, and radii are rolling on a flat surface, and they all have the same velocity. Their shapes are a sphere , a tube , or a cylinder . Order them by their total kinetic energy (rotational plus translational)., e.g. “1” is highest, “2” is second highest, etc. For ties put the same answer for both objects, and the next rank is increased by one, e.g. you can’t have 1 1 2.”</p>
-</blockquote>
-<blockquote>
-<p>The three objects:</p>
-<p><em>tube</em> of mass <em>1kg</em>, radius<br>
-<em>0.2m</em></p>
-<p><em>solid sphere</em> of mass <em>1kg</em>,<br>
-radius <em>0.5m</em></p>
-<p><em>cylinder</em> of mass <em>1.5kg</em>, radius <em>0.3m</em></p>
-</blockquote>
-<blockquote>
-<p>We can use our moment of inertia reference sheet:</p>
-<p>[Moment of Inertia Table] (http://hyperphysics.phy- <a href="http://astr.gsu.edu/hbase/imgmec/mic.png">astr.gsu.edu/hbase/imgmec/mic.png</a>)</p>
-</blockquote>
-<h2 id="the-tube">The Tube</h2>
-<blockquote>
-<p>Use the hoop moment of inertia equation (assume near-0 thickness since we don’t have an outside radius)</p>
-</blockquote>
-<p>I = M * R^2</p>
-<blockquote>
-<p>Now use the numbers</p>
-</blockquote>
-<p>I = 1.0kg * (0.2m)^2</p>
-<p>I = <code>0.04 kg * m^2</code></p>
-<h2 id="the-sphere">The Sphere</h2>
-<blockquote>
-<p>Use the table to find the moment of inertia equation</p>
-</blockquote>
-<p>I = (2/5) * M * R^2</p>
-<blockquote>
-<p>Now use the numbers</p>
-</blockquote>
-<p>I = (2/5) * 1kg * (0.5m)^2</p>
-<p>I = .25 m^2 * 0.4kg</p>
-<p>I = <code>0.1 kg * m^2</code></p>
-<h2 id="the-cylinder">The Cylinder</h2>
-<blockquote>
-<p>Use the table to find the moment of inertia equation</p>
-</blockquote>
-<p>I = 0.5 * M * R^2</p>
-<blockquote>
-<p>Now use the numbers</p>
-</blockquote>
-<p>I = 0.5 * 1.5 kg * (0.3m)^2</p>
-<p>I = 0.75 kg * 0.09m^2</p>
-<p>I = <code>0.0675 kg * m^2</code></p>
-<h2 id="early-results">Early results:</h2>
-<blockquote>
-<p>though this does not yet include the translational kinetic energies, nor the calculated KE_rot, as it is only the moments of inertia (I), the ranking as of now is:</p>
-</blockquote>
-<blockquote>
-<p>1: Cylinder<br>
-2: Sphere<br>
-3: Tube</p>
-</blockquote>
-<blockquote>
-<p>Since that doesn’t seem to be right, let’s try including the translational kinetic energies</p>
-</blockquote>
-<p>KE_t = 0.5 * m * v^2</p>
-<blockquote>
-<p>We’ll have to add this to each in the end!</p>
-</blockquote>
-<h2 id="fixing-the-first-part">Fixing the first part</h2>
-<blockquote>
-<p>We found I, the moment of inertia, but need the KE_rot:</p>
-</blockquote>
-<p>KE_rot = 0.5 * I * ω^2</p>
-<blockquote>
-<p>Then sub in ω</p>
-</blockquote>
-<p>KE_rot = 0.5 * I * (v/r)^2</p>
-<p>KE_rot = 0.5 * I * v^2 /r^2</p>
-<p>KE_rot = 0.5 * (I / r^2) * v^2</p>
-<h2 id="total-kinetic-energy">Total Kinetic Energy</h2>
-<p>KE = KE_rot + KE_t</p>
-<p>KE = 0.5 * (I / r^2) * v^2 + 0.5 * m * v^2</p>
-<p>KE = 0.5 * v^2 * ((I / r^2) + m)</p>
-<blockquote>
-<p>Since velocity and the coeff are the same for all cases, we don’t need them while comparing</p>
-</blockquote>
-<p>KE = (I / r^2) + m</p>
-<h2 id="the-final-comparison">The final comparison</h2>
-<blockquote>
-<p>I promise it’s correct this time</p>
-</blockquote>
-<p>KE = (I / r^2) + M</p>
-<h3 id="tube">Tube</h3>
-<p>I = M * R^2</p>
-<p>KE = 2M</p>
-<p>KE = 2.0 kg (ignore units, we factored out common factors)</p>
-<h3 id="sphere">Sphere</h3>
-<p>I = (2/5) * M * R^2</p>
-<p>KE = 0.4M + M</p>
-<p>KE = 1.4M</p>
-<p>KE = 1.4kg</p>
-<h3 id="cylinder">Cylinder</h3>
-<p>I = 0.5 * M * R^2</p>
-<p>KE = 0.5 * M + M</p>
-<p>KE = 1.5M</p>
-<p>KE = 2.25 kg</p>
-<h2 id="final-ranking">Final Ranking</h2>
-<ol>
-<li>
-<p>Cylinder @ 2.25</p>
-</li>
-<li>
-<p>Tube @ 2</p>
-</li>
-<li>
-<p>Sphere @ 1.4</p>
-</li>
-</ol>
-<h1 id="lon-capa-7b---question-4">*Lon Capa 7B - Question 4</h1>
-<blockquote>
-<p>Note: I did this incorrectly, check what nathan did in the end for the correct solution, I thought it would be nice to have the work regardless</p>
-</blockquote>
-<blockquote>
-<p>Question: “A bowling ball with a mass of <em>6.49</em> kg and a radius of <em>0.136</em> m starts from rest at a height of <em>2.36</em> m and rolls down a <em>48.3</em> deg slope. What is the translational speed of the ball when it leaves the incline?”</p>
-</blockquote>
-<blockquote>
-<p>Variables:</p>
-<p>m = 6.49 kg<br>
-r = 0.136 m<br>
-theta = 48.3 deg</p>
-</blockquote>
-<h2 id="solving">Solving</h2>
-<blockquote>
-<p>Use conservation of energy concepts</p>
-</blockquote>
-<p>TME_i = TME_f</p>
-<p>U_g = KE_t + KE_rot</p>
-<p>m * g * h = (0.5 * I * ω^2) + (0.5 * m * v^2)</p>
-<blockquote>
-<p>rewrite some of the equation</p>
-</blockquote>
-<p>m<em>g</em>h = 0.5 * ((I * ω^2) + (m * v^2))</p>
-<blockquote>
-<p>use the moment of inertia equation for a sphere</p>
-</blockquote>
-<p>I = 0.4 * m * r^2</p>
-<p>g * h = 0.5 * ((0.4 * r^2 * ω^2) + v^2)</p>
-<blockquote>
-<p>now fix the angular momentum portion with its identity</p>
-</blockquote>
-<p>ω = v / r</p>
-<p>ω^2 = v^2 / r^2</p>
-<p>g * h = 0.5 * ((0.4 * r^2 * (v^2 / r^2)) + v^2)</p>
-<p>g * h = 0.5 * ((0.4 * v^2) + v^2)</p>
-<p>g * h = 0.5 * v^2 * (0.4 + 1)</p>
-<p>g * h = 1.4 * v^2</p>
-<blockquote>
-<p>now just solve for v</p>
-</blockquote>
-<p>v^2 = (g * h) / 1.4</p>
-<p>v = sqrt((g * h) / 1.4)</p>
-<blockquote>
-<p>for my example:</p>
-</blockquote>
-<p>v = sqrt(((9.8 m/s^2) * 2.36 m) / 1.4)</p>
-<p>v = 4.06 m/s ?</p>
-<h2 id="nathan-being-bad">Nathan being bad</h2>
-<p>v = sqrt((10/7) * g * h)</p>
-<p>v = sqrt((10/7) * 9.8 m/s^2 * 2.36)</p>
-<p>v = 5.75 m/s</p>
-<h1 id="lon-capa---question-5">Lon Capa - Question 5</h1>
-<blockquote>
-<p>Question: “Calculate the rotational kinetic energy in the motorcycle wheel (figure below) if its angular velocity is <em>126</em> rad/s. The mass of the wheel is <em>10.6</em> kg and assume it to be a approximately an annular ring with an inner radius of <em>0.330</em> m and an outer radius of <em>0.380</em> m.”</p>
-</blockquote>
-<blockquote>
-<p>Variables:</p>
-<p>ω = <em>126</em> rad/s<br>
-m = <em>10.6</em> kg<br>
-R_1 = <em>0.330</em> m<br>
-R_1 = <em>0.380</em> m</p>
-</blockquote>
-<blockquote>
-<p>Finding moment of inertia</p>
-</blockquote>
-<p>I = 0.5 * M * (R_1^2 + R_2^2)</p>
-<p>KE_rot = 0.5 * I * ω^2</p>
-<p>KE_rot = 0.25 * M * (R_1^2 + R_2^2) * ω^2</p>
-<blockquote>
-<p>For my example:</p>
-</blockquote>
-<p>KE_rot = 0.25 * 10.6 * (0.33^2 + 0.38^2) * 126^2</p>
-<p>KE_rot = <code>10656.7 J</code></p>
-<h1 id="lon-capa-7b---question-6">*Lon Capa 7B - Question 6</h1>
-<blockquote>
-<p>Question: “A baseball pitcher throws the ball in a motion where there is rotation of the forearm about the elbow joint as well as other movements. If the linear velocity of the ball relative to the elbow joint is <em>19.0</em> m/s at a distance of <em>0.480</em> m from the joint and the moment of inertia of the forearm is <em>0.500</em> kg·m^2, what is the rotational kinetic energy of the forearm?”</p>
-</blockquote>
-<blockquote>
-<p>Variables:</p>
-<p>v = <em>19.0</em> m/s<br>
-r = <em>0.480</em> m<br>
-I = <em>0.500</em> kg·m^2</p>
-</blockquote>
-<blockquote>
-<p>we’re just finding the kinetic energy of rotation, so use the equation:</p>
-</blockquote>
-<p>KE_rot = 0.5 * I * ω^2</p>
-<p>ω = v / r</p>
-<p>ω^2 = v^2 / r^2</p>
-<p>KE_rot = 0.5 * I * v^2 / r^2</p>
-<blockquote>
-<p>that’s it!</p>
-</blockquote>
-<blockquote>
-<p>for my numbers:</p>
-</blockquote>
-<p>KE_rot = 0.5 * .5 * 19^2 / 0.48^2</p>
-<p>KE_rot = <code>391.7 J</code></p>
-</div>
-</body>
-
+  <body class="stackedit">
+    <div class="stackedit__html">
+      <h1 id="lon-capa-7b--question-work">Lon Capa 7B | Guided Solutions</h1>
+      <blockquote>
+        <p>
+          By <a href="https://svonk.me">Sander Vonk</a> |
+          <a href="https://code.svonk.me/LC/">Files</a> |
+          <a href="mailto:loncapa@svonk.me">Contribute</a>
+        </p>
+      </blockquote>
+      <h1 id="lon-capa-7b---question-1">*Lon Capa 7B - Question 1</h1>
+      <blockquote>
+        <p>MCQ Reasoning</p>
+      </blockquote>
+      <p>
+        “The moment of inertia of a solid disk can never be the same as that for a solid sphere.”
+      </p>
+      <blockquote>
+        <p>
+          No, they both have mass and radius in the equation, so even though they may be different
+          shapes, since they dont have any other constraints, they can always be the same with the
+          right masses or radii
+        </p>
+      </blockquote>
+      <p>“The linear force equations do not have angular analogues.”</p>
+      <blockquote>
+        <p>N/A to this concept</p>
+      </blockquote>
+      <p>“The moment of inertia of a sphere is less if it is hollow than if it is solid.”</p>
+      <blockquote>
+        <p>No, it is greater if it is hollow (check the equations)</p>
+      </blockquote>
+      <p>“A solid ball rolls down a slope faster than a hollow ball.”</p>
+      <blockquote>
+        <p>
+          No, with the same masses and radii, the coeff on the hollow ball is greater, so in the
+          equation, the velocity would have to be smaller to compensate
+        </p>
+      </blockquote>
+      <p>“The way mass is distributed affects the moment of inertia.”</p>
+      <blockquote>
+        <p>
+          True, with the same mass and shape, for example having a cylinder with a hollow center, w/
+          same mass and radius, just a different distribution, will have a higher moment of inertia
+          than its associated cylinder
+        </p>
+      </blockquote>
+      <h1 id="lon-capa-7b---question-2">*Lon Capa 7B - Question 2</h1>
+      <blockquote>
+        <p>
+          Question: “An automobile is traveling at v = 46 m/s and has wheels with radius R = 24.6
+          cm. Assuming that the wheels are disks which roll without slipping and have a mass m = 15
+          kg, what is the kinetic energy of rotation of the four tires in Joules?”
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>
+          Variables:<br />
+          v = 46 m/s<br />
+          R = 24.6 cm<br />
+          m = 15 kg<br />
+          n = 4 tires
+        </p>
+      </blockquote>
+      <p>KE = (0.5 * I * ω^2) * n</p>
+      <blockquote>
+        <p>Using the moment of inertia for a disk / cylinder</p>
+      </blockquote>
+      <p>I = 0.5 * m * R^2</p>
+      <blockquote>
+        <p>Subbing it back into the original equation</p>
+      </blockquote>
+      <p>KE = (0.5 * (0.5 * m * R^2) * ω^2) * n</p>
+      <blockquote>
+        <p>
+          however, we don’t know the angular velocity, only the transpositional velocity, so let’s
+          find that
+        </p>
+      </blockquote>
+      <p>ω = v/R</p>
+      <blockquote>
+        <p>now we can add this back into the equation:</p>
+      </blockquote>
+      <p>KE = (0.5 * (0.5 * m * R^2) * (v/R)^2) * n</p>
+      <blockquote>
+        <p>with some rewriting we get:</p>
+      </blockquote>
+      <p>KE = (0.5 * (0.5 * m * R<sup>2)/(R</sup>2) * v^2) * n</p>
+      <blockquote>
+        <p>Now we simplify:</p>
+      </blockquote>
+      <p>KE = 0.25 * m * v^2 * n</p>
+      <blockquote>
+        <p>and just solve with your numbers!</p>
+      </blockquote>
+      <blockquote>
+        <p>for my example:</p>
+      </blockquote>
+      <p>KE = 0.25 * 15 kg * (46 m/s)^2 * 4</p>
+      <p>KE = 15 kg * (46 m/s)^2</p>
+      <p>KE = <code>31740 J</code></p>
+      <h1 id="lon-capa-7b--question-3---rot-nrg3">*Lon Capa 7B | Question 3 - Rot NRG3</h1>
+      <blockquote>
+        <p>
+          Question: “Some objects with different shapes, masses, and radii are rolling on a flat
+          surface, and they all have the same velocity. Their shapes are a sphere , a tube , or a
+          cylinder . Order them by their total kinetic energy (rotational plus translational)., e.g.
+          “1” is highest, “2” is second highest, etc. For ties put the same answer for both objects,
+          and the next rank is increased by one, e.g. you can’t have 1 1 2.”
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>The three objects:</p>
+        <p>
+          <em>tube</em> of mass <em>1kg</em>, radius<br />
+          <em>0.2m</em>
+        </p>
+        <p>
+          <em>solid sphere</em> of mass <em>1kg</em>,<br />
+          radius <em>0.5m</em>
+        </p>
+        <p><em>cylinder</em> of mass <em>1.5kg</em>, radius <em>0.3m</em></p>
+      </blockquote>
+      <blockquote>
+        <p>We can use our moment of inertia reference sheet:</p>
+        <p>
+          [Moment of Inertia Table] (http://hyperphysics.phy-
+          <a href="http://astr.gsu.edu/hbase/imgmec/mic.png">astr.gsu.edu/hbase/imgmec/mic.png</a>)
+        </p>
+      </blockquote>
+      <h2 id="the-tube">The Tube</h2>
+      <blockquote>
+        <p>
+          Use the hoop moment of inertia equation (assume near-0 thickness since we don’t have an
+          outside radius)
+        </p>
+      </blockquote>
+      <p>I = M * R^2</p>
+      <blockquote>
+        <p>Now use the numbers</p>
+      </blockquote>
+      <p>I = 1.0kg * (0.2m)^2</p>
+      <p>I = <code>0.04 kg * m^2</code></p>
+      <h2 id="the-sphere">The Sphere</h2>
+      <blockquote>
+        <p>Use the table to find the moment of inertia equation</p>
+      </blockquote>
+      <p>I = (2/5) * M * R^2</p>
+      <blockquote>
+        <p>Now use the numbers</p>
+      </blockquote>
+      <p>I = (2/5) * 1kg * (0.5m)^2</p>
+      <p>I = .25 m^2 * 0.4kg</p>
+      <p>I = <code>0.1 kg * m^2</code></p>
+      <h2 id="the-cylinder">The Cylinder</h2>
+      <blockquote>
+        <p>Use the table to find the moment of inertia equation</p>
+      </blockquote>
+      <p>I = 0.5 * M * R^2</p>
+      <blockquote>
+        <p>Now use the numbers</p>
+      </blockquote>
+      <p>I = 0.5 * 1.5 kg * (0.3m)^2</p>
+      <p>I = 0.75 kg * 0.09m^2</p>
+      <p>I = <code>0.0675 kg * m^2</code></p>
+      <h2 id="early-results">Early results:</h2>
+      <blockquote>
+        <p>
+          though this does not yet include the translational kinetic energies, nor the calculated
+          KE_rot, as it is only the moments of inertia (I), the ranking as of now is:
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>
+          1: Cylinder<br />
+          2: Sphere<br />
+          3: Tube
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>
+          Since that doesn’t seem to be right, let’s try including the translational kinetic
+          energies
+        </p>
+      </blockquote>
+      <p>KE_t = 0.5 * m * v^2</p>
+      <blockquote>
+        <p>We’ll have to add this to each in the end!</p>
+      </blockquote>
+      <h2 id="fixing-the-first-part">Fixing the first part</h2>
+      <blockquote>
+        <p>We found I, the moment of inertia, but need the KE_rot:</p>
+      </blockquote>
+      <p>KE_rot = 0.5 * I * ω^2</p>
+      <blockquote>
+        <p>Then sub in ω</p>
+      </blockquote>
+      <p>KE_rot = 0.5 * I * (v/r)^2</p>
+      <p>KE_rot = 0.5 * I * v^2 /r^2</p>
+      <p>KE_rot = 0.5 * (I / r^2) * v^2</p>
+      <h2 id="total-kinetic-energy">Total Kinetic Energy</h2>
+      <p>KE = KE_rot + KE_t</p>
+      <p>KE = 0.5 * (I / r^2) * v^2 + 0.5 * m * v^2</p>
+      <p>KE = 0.5 * v^2 * ((I / r^2) + m)</p>
+      <blockquote>
+        <p>
+          Since velocity and the coeff are the same for all cases, we don’t need them while
+          comparing
+        </p>
+      </blockquote>
+      <p>KE = (I / r^2) + m</p>
+      <h2 id="the-final-comparison">The final comparison</h2>
+      <blockquote>
+        <p>I promise it’s correct this time</p>
+      </blockquote>
+      <p>KE = (I / r^2) + M</p>
+      <h3 id="tube">Tube</h3>
+      <p>I = M * R^2</p>
+      <p>KE = 2M</p>
+      <p>KE = 2.0 kg (ignore units, we factored out common factors)</p>
+      <h3 id="sphere">Sphere</h3>
+      <p>I = (2/5) * M * R^2</p>
+      <p>KE = 0.4M + M</p>
+      <p>KE = 1.4M</p>
+      <p>KE = 1.4kg</p>
+      <h3 id="cylinder">Cylinder</h3>
+      <p>I = 0.5 * M * R^2</p>
+      <p>KE = 0.5 * M + M</p>
+      <p>KE = 1.5M</p>
+      <p>KE = 2.25 kg</p>
+      <h2 id="final-ranking">Final Ranking</h2>
+      <ol>
+        <li>
+          <p>Cylinder @ 2.25</p>
+        </li>
+        <li>
+          <p>Tube @ 2</p>
+        </li>
+        <li>
+          <p>Sphere @ 1.4</p>
+        </li>
+      </ol>
+      <h1 id="lon-capa-7b---question-4">*Lon Capa 7B - Question 4</h1>
+      <blockquote>
+        <p>
+          Note: I did this incorrectly, check what nathan did in the end for the correct solution, I
+          thought it would be nice to have the work regardless
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>
+          Question: “A bowling ball with a mass of <em>6.49</em> kg and a radius of <em>0.136</em> m
+          starts from rest at a height of <em>2.36</em> m and rolls down a <em>48.3</em> deg slope.
+          What is the translational speed of the ball when it leaves the incline?”
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>Variables:</p>
+        <p>
+          m = 6.49 kg<br />
+          r = 0.136 m<br />
+          theta = 48.3 deg
+        </p>
+      </blockquote>
+      <h2 id="solving">Solving</h2>
+      <blockquote>
+        <p>Use conservation of energy concepts</p>
+      </blockquote>
+      <p>TME_i = TME_f</p>
+      <p>U_g = KE_t + KE_rot</p>
+      <p>m * g * h = (0.5 * I * ω^2) + (0.5 * m * v^2)</p>
+      <blockquote>
+        <p>rewrite some of the equation</p>
+      </blockquote>
+      <p>m<em>g</em>h = 0.5 * ((I * ω^2) + (m * v^2))</p>
+      <blockquote>
+        <p>use the moment of inertia equation for a sphere</p>
+      </blockquote>
+      <p>I = 0.4 * m * r^2</p>
+      <p>g * h = 0.5 * ((0.4 * r^2 * ω^2) + v^2)</p>
+      <blockquote>
+        <p>now fix the angular momentum portion with its identity</p>
+      </blockquote>
+      <p>ω = v / r</p>
+      <p>ω^2 = v^2 / r^2</p>
+      <p>g * h = 0.5 * ((0.4 * r^2 * (v^2 / r^2)) + v^2)</p>
+      <p>g * h = 0.5 * ((0.4 * v^2) + v^2)</p>
+      <p>g * h = 0.5 * v^2 * (0.4 + 1)</p>
+      <p>g * h = 1.4 * v^2</p>
+      <blockquote>
+        <p>now just solve for v</p>
+      </blockquote>
+      <p>v^2 = (g * h) / 1.4</p>
+      <p>v = sqrt((g * h) / 1.4)</p>
+      <blockquote>
+        <p>for my example:</p>
+      </blockquote>
+      <p>v = sqrt(((9.8 m/s^2) * 2.36 m) / 1.4)</p>
+      <p>v = 4.06 m/s ?</p>
+      <h2 id="nathan-being-bad">Nathan being bad</h2>
+      <p>v = sqrt((10/7) * g * h)</p>
+      <p>v = sqrt((10/7) * 9.8 m/s^2 * 2.36)</p>
+      <p>v = 5.75 m/s</p>
+      <h1 id="lon-capa---question-5">Lon Capa - Question 5</h1>
+      <blockquote>
+        <p>
+          Question: “Calculate the rotational kinetic energy in the motorcycle wheel (figure below)
+          if its angular velocity is <em>126</em> rad/s. The mass of the wheel is <em>10.6</em> kg
+          and assume it to be a approximately an annular ring with an inner radius of
+          <em>0.330</em> m and an outer radius of <em>0.380</em> m.”
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>Variables:</p>
+        <p>
+          ω = <em>126</em> rad/s<br />
+          m = <em>10.6</em> kg<br />
+          R_1 = <em>0.330</em> m<br />
+          R_1 = <em>0.380</em> m
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>Finding moment of inertia</p>
+      </blockquote>
+      <p>I = 0.5 * M * (R_1^2 + R_2^2)</p>
+      <p>KE_rot = 0.5 * I * ω^2</p>
+      <p>KE_rot = 0.25 * M * (R_1^2 + R_2^2) * ω^2</p>
+      <blockquote>
+        <p>For my example:</p>
+      </blockquote>
+      <p>KE_rot = 0.25 * 10.6 * (0.33^2 + 0.38^2) * 126^2</p>
+      <p>KE_rot = <code>10656.7 J</code></p>
+      <h1 id="lon-capa-7b---question-6">*Lon Capa 7B - Question 6</h1>
+      <blockquote>
+        <p>
+          Question: “A baseball pitcher throws the ball in a motion where there is rotation of the
+          forearm about the elbow joint as well as other movements. If the linear velocity of the
+          ball relative to the elbow joint is <em>19.0</em> m/s at a distance of <em>0.480</em> m
+          from the joint and the moment of inertia of the forearm is <em>0.500</em> kg·m^2, what is
+          the rotational kinetic energy of the forearm?”
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>Variables:</p>
+        <p>
+          v = <em>19.0</em> m/s<br />
+          r = <em>0.480</em> m<br />
+          I = <em>0.500</em> kg·m^2
+        </p>
+      </blockquote>
+      <blockquote>
+        <p>we’re just finding the kinetic energy of rotation, so use the equation:</p>
+      </blockquote>
+      <p>KE_rot = 0.5 * I * ω^2</p>
+      <p>ω = v / r</p>
+      <p>ω^2 = v^2 / r^2</p>
+      <p>KE_rot = 0.5 * I * v^2 / r^2</p>
+      <blockquote>
+        <p>that’s it!</p>
+      </blockquote>
+      <blockquote>
+        <p>for my numbers:</p>
+      </blockquote>
+      <p>KE_rot = 0.5 * .5 * 19^2 / 0.48^2</p>
+      <p>KE_rot = <code>391.7 J</code></p>
+    </div>
+  </body>
 </html>

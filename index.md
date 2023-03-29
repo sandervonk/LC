@@ -4,9 +4,11 @@
 
 #### [Lon Capa 7A](https://svonk.me/LC/7A)
 
-#### [Lon Capa 7B](https://svonk.me/LC/7A)
+#### [Lon Capa 7B](https://svonk.me/LC/7B)
 
-#### [Lon Capa 7C](https://svonk.me/LC/7A)
+#### [Lon Capa 7C](https://svonk.me/LC/7C)
+
+#### [Lon Capa 7D](https://svonk.me/LC/7D)
 
 ## Lon Capa 6
 

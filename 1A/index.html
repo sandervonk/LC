@@ -1571,4 +1571,29 @@
       </div>
     </div>
   </body>
+  <script>
+    function getHtmlBetweenH2Tags(elementId) {
+      const targetElement = document.getElementById(elementId);
+      
+      if (!targetElement) {
+        console.error(`Element with ID "${elementId}" not found.`);
+        return;
+      }
+      
+      let htmlContent = targetElement.outerHTML;
+      let currentNode = targetElement.nextSibling;
+
+      while (currentNode && currentNode.tagName !== 'H2') {
+        htmlContent += currentNode.outerHTML || '';
+        currentNode = currentNode.nextSibling;
+      }
+
+      return htmlContent;
+    }
+    let key = new URLSearchParams(window.location.search).get("only");
+    if (key !== null) {
+        let contents = document.getElementsByClassName("stackedit__html")[0]
+        contents.innerHTML = getHtmlBetweenH2Tags(key)
+    }
+  </script>
 </html>

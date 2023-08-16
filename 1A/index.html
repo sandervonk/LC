@@ -1594,6 +1594,8 @@
     if (key !== null) {
         let contents = document.getElementsByClassName("stackedit__html")[0]
         contents.innerHTML = getHtmlBetweenH2Tags(key)
+        document.querySelector("body > div.stackedit__left").remove()
+document.querySelector("body > div.stackedit__right").className = "stackedit__container"
     }
   </script>
 </html>

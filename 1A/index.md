@@ -494,7 +494,7 @@ B_x & B_y
 \hat{i}\left(
 A_y B_z - A_z B_y
 \right) - \hat{j}\left(
-A_z B_x - A_x B_z
+A_x B_z - A_z B_x
 \right) + \hat{k}\left(
 A_x B_y - A_y B_x
 \right)$
@@ -588,7 +588,7 @@ $\vec{A} \times \vec{B} \ = \
 \hat{i}\left(
 A_y B_z - A_z B_y
 \right) - \hat{j}\left(
-A_z B_x - A_x B_z
+A_x B_z - A_z B_x
 \right) + \hat{k}\left(
 A_x B_y - A_y B_x
 \right)$
@@ -600,19 +600,19 @@ A_x B_y - A_y B_x
 Since the question only asks for the scalar $y$-component, we can just take the part that'll become the coefficient of the $\hat{j}$ unit vector:
 
 $\left(\vec{A} \times \vec{B}\right)_y \ = \ 
-\hat{j}\left(
-A_z B_x - A_x B_z
+-\hat{j}\left(
+A_x B_z - A_z B_x
 \right)$
 
-As you can see above, for reasons explained in [this Khan Academy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/linear-algebra-cross-product-introduction), the negative gets dropped in this process
+If you're still feeling confused, I'd recommend [this Khan Academy video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/linear-algebra-cross-product-introduction), which gives a better overview of cross products.
 
 For my example problem, this process works out to:
 
-> $\left(\vec{A} \times \vec{B}\right)_y \ = \ \hat{j}\left(A_z B_x - A_x B_z\right)$
+> $\left(\vec{A} \times \vec{B}\right)_y \ = \ -\hat{j}\left(A_x B_z - A_z B_x\right)$
 >
-> > $\left(\vec{A} \times \vec{B}\right)_y \ = \ \hat{j}\left(8.3 * -3.1 - 6.1 * 2.3\right)$
+> > $\left(\vec{A} \times \vec{B}\right)_y \ = \ -\hat{j}\left(6.1 * 2.3 - 8.3 * -3.1\right)$
 > >
-> > $\left(\vec{A} \times \vec{B}\right)_y \ = \ \hat{j}\left(-39.76\right)$
+> > $\left(\vec{A} \times \vec{B}\right)_y \ = \ -\hat{j}\left(39.76\right)$
 > >
 > > $\left(\vec{A} \times \vec{B}\right)_y \ = \ -39.76*\hat{j}$
 

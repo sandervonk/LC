@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lon Capa 2A | Guided Solutions</title>
+    <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <link rel="icon" href="/me/img/favicon/favicon.png" />
+    <link rel="shortcut icon" href="/me/img/favicon/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      href="/me/img/favicon/favicon-dark.png"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="shortcut icon"
+      href="/me/img/favicon-dark/favicon.svg"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: light)"
+    />
+  </head>
+
+  <body class="stackedit">
+    <div class="stackedit__left">
+      <div class="stackedit__toc">
+        <ul>
+          <li>
+            <a href="#lon-capa-2b---guided-practice">Lon Capa 2A - Guided Solutions</a>
+            <ul>
+              <li><a href="#q1-racecar-qualifying">Q1: Racecar Qualifying</a></li>
+              <li><a href="#q2-imperial-car-speed">Q2: Imperial Car Speed</a></li>
+              <li><a href="#q3-speed-from-graph">Q3: Speed from Graph</a></li>
+              <li><a href="#q4-slingshot-speed">Q4: Slingshot speed</a></li>
+              <li><a href="#other-tidbits">Other Tidbits</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="stackedit__right">
+      <div class="stackedit__html">
+        <!-- header -->
+        <h1 id="lon-capa-2b---guided-practice">Lon Capa 2A - Guided Solutions</h1>
+        <!-- end header -->
+        <blockquote>
+          <p>
+            By <a href="https://svonk.me">Sander Vonk</a> |
+            <a href="https://code.svonk.me/LC/">Files</a> |
+            <a href="mailto:loncapa@svonk.me">Contribute</a>
+          </p>
+        </blockquote>
+        <!-- contents -->
+
+        <!-- end contents -->
+        <div id="other-sets-block">
+          <h2 id="lon-capa-see-other-footer">Other Sets</h2>
+          <div style="display: flex; justify-content: space-evenly">
+            <a href="../1A/">Lon Capa 1A</a> |
+            <b><a href="../" style="text-decoration: none">See All</a></b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- begin script -->
+  <script>
+    function getHtmlBetweenH2Tags(elementId) {
+      const targetElement = document.getElementById(elementId);
+
+      if (!targetElement) {
+        console.error(`Element with ID "${elementId}" not found.`);
+        return;
+      }
+
+      let htmlContent = targetElement.outerHTML;
+      let currentNode = targetElement.nextSibling;
+
+      while (currentNode && currentNode.tagName !== "H2") {
+        htmlContent += currentNode.outerHTML || "";
+        currentNode = currentNode.nextSibling;
+      }
+
+      return htmlContent;
+    }
+    let key = new URLSearchParams(window.location.search).get("only");
+    if (key !== null) {
+      let contents = document.getElementsByClassName("stackedit__html")[0];
+      contents.innerHTML = getHtmlBetweenH2Tags(key);
+      document.querySelector("body > div.stackedit__left").remove();
+      document.querySelector("body > div.stackedit__right").className = "stackedit__container";
+    }
+  </script>
+  <!-- end script -->
+</html>

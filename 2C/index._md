@@ -1,18 +1,14 @@
 # Lon Capa 2C - Guided Solutions
 
 ## Q1: Acceleration and Velocity Vectors
-
 ### Question:
-
 > If the acceleration vector of an object is zero, its velocity vector
->
 > - [ ] can change length but cannot turn
 > - [ ] is also zero
 > - [x] is not changing
 > - [ ] can turn but cannot change in length
 
 ### Reasoning:
-
 By Newton's first law of motion (inertia), "an object in motion tends to stay in motion unless an external force acts upon it"
 
 As an extension of this idea, a physics body's velocity (state of motion) will stay constant unless acted upon by an external force
@@ -22,63 +18,51 @@ Force is equal to the product of mass and acceleration ($F = m*a$), and as a res
 Since there is no external force working on the object (since the acceleration vector is zero), its velocity will remain changed / **is not changing**.
 
 ## Q2: Circling Airplane
-
 ### Question:
-
 > A line-controlled model airplane is propelled by a small gasoline engine and propeller and flies in a circle at the end of its control lines. Its acceleration vector points
->
 > - [ ] in its direction of motion.
 > - [ ] opposite to its direction of motion.
 > - [x] in the direction of the person holding the control lines.
 > - [ ] away from the person holding the control lines.
 
 ### Reasoning:
-
-For an object to stay remain in circular motion, it must have a centripetal force, a "force that makes a body follow a curved path."
+For an object to stay remain in circular motion, it must have a centripetal force, a "force that makes a body follow a curved path." 
 
 For this path to remain circular, it must have a centripetal acceleration of $a_c = \frac{v^2}{r}$. Though this equation is unimportant for this question, it is very helpful to know that the direction of the acceleration must be towards the center of the circle.
 
-As a result, in this instance, since the model airplane is following a circular path, its acceleration vector must be pointing towards the center of the circle - **in the direction of the person holding the control lines**.# Lon Capa ## - Guided Practice
+As a result, in this instance, since the model airplane is following a circular path, its acceleration vector must be pointing towards the center of the circle - **in the direction of the person holding the control lines**.
 
 ## Q3: Banking Automobile
-
 ### Question:
-
 > An automobile enters a $40.0°$ curve with a speed of $46.0 \, \frac{\text m}{\text s}$ and emerges from this curve $11.0 \, \text s$ later with the same speed. What is the magnitude of the average acceleration during this time interval?
-> (in $\frac{\text m}{\text s^2}$)
+(in $\frac{\text m}{\text s^2}$)
 
 ### Variable Breakdown
-
 > $\Theta_i = 0.0°$
->
-> > $\Theta_f = 40.0°$
+> >
+> $\Theta_f = 40.0°$
 
 > $|\vec v_i| = 46.0 \, \frac{\text m}{\text s}$
->
-> > $|\vec v_f| = 46.0 \, \frac{\text m}{\text s}$
+>>
+> $|\vec v_f| = 46.0 \, \frac{\text m}{\text s}$
 
 > $\Delta t = 11.0 \, \text s$
 
 ### Steps / Summary
-
 #### Setting up the vector
-
 In order to make this problem a tiny bit easier to comprehend, we'll be setting up velocity vectors for the initial and final velocities ($\vec v_i$ and $\vec v_f$) in the format:
-
 > $\vec A \ = \ <A_x, \, A_y>$
 
 For our velocity vectors, we can rewrite the $\Theta$ angle and $|\vec v|$ magnitudes in this form using some basic trig:
-
 > $\vec v = <v_x, \, v_y>$
->
-> > $\vec v = <\cos{\Theta} * v_x \, \sin{\Theta} * v_y>$
+> >
+> $\vec v = <\cos{\Theta} * v_x \, \sin{\Theta} * v_y>$
 
 $\vec v_i = <\cos{\Theta_i} * |\vec v_{i}|, \, \sin{\Theta_i} * |\vec v_{i}|>$
 
 $\vec v_f = <\cos{\Theta_f} * |\vec v_{f}|, \, \sin{\Theta_f} * |\vec v_{f}|>$
 
 #### Finding the vector for change in velocity
-
 To find the vector $\Delta \vec v$, we can simply use:
 
 $\Delta \vec v = \vec v_f - \vec v_i$
@@ -91,7 +75,6 @@ $\Delta \vec v = <
 \sin{\Theta_f} * |\vec v_{f}| - \cos{\Theta_i} * |\vec v_{i}| >$
 
 #### Solving for acceleration
-
 To find the magnitude of the acceleration vector $|\vec a|$, we can use the definition:
 
 $\vec a = \frac{\Delta \vec v}{\Delta t}$
@@ -101,20 +84,18 @@ $|\vec a| = \frac{|\Delta \vec v|}{\Delta t}$
 and substitute in the magnitude of a vector $\vec A$ using the Pythagorean theorem:
 
 > $|\vec A| = \sqrt{
-
-    {\left(
-    	A_{x}
-    \right)^2}
-    +
-    {\left(
-    	A_{y}
-    \right)^2}
-
+	{\left(
+		A_{x}
+	\right)^2}
+	+
+	{\left(
+		A_{y}
+	\right)^2}
 }$
 
 which with our change in velocity vector $\Delta \vec v$ becomes:
-
-$|\Delta \vec v| = \sqrt{
+ 
+ $|\Delta \vec v| = \sqrt{
 	{\left(
 		v_{f,x} - v_{i,x}
 	\right)^2}
@@ -153,39 +134,430 @@ $|\vec a| = \frac
 It might not be pretty, but it works!
 
 For my example problem, this works out to:
-
 > $|\Delta \vec v| = \sqrt{
-
-    {\left(
-    	\cos{\Theta_f} * |\vec v_{f}| - \cos{\Theta_i} * |\vec v_{i}|
-    \right)^2}
-    +
-    {\left(
-    	\sin{\Theta_f} * |\vec v_{f}| - \cos{\Theta_i} * |\vec v_{i}|
-    \right)^2}
-
+	{\left(
+		\cos{\Theta_f} * |\vec v_{f}| - \cos{\Theta_i} * |\vec v_{i}|
+	\right)^2}
+	+
+	{\left(
+		\sin{\Theta_f} * |\vec v_{f}| - \cos{\Theta_i} * |\vec v_{i}|
+	\right)^2}
 }$
-
-> > $|\Delta \vec v| = {46.0 \, \frac{\text m}{\text s}} \* \sqrt{
-
-    {\left(
-    	\cos{40.0°} - \cos{0.0°}
-    \right)^2}
-    +
-    {\left(
-    	\sin{40.0°} - \sin{0.0°}
-    \right)^2}
-
+>>
+> $|\Delta \vec v| = {46.0 \, \frac{\text m}{\text s}} * \sqrt{
+	{\left(
+		\cos{40.0°} - \cos{0.0°}
+	\right)^2}
+	+
+	{\left(
+		\sin{40.0°} - \sin{0.0°}
+	\right)^2}
 }$
-
-> > $|\Delta \vec v| \approx 31.466 \, \frac{\text m}{\text s^2}$
-> >
-> > $|\vec a| = \frac{|\Delta \vec v|}{\Delta t}$
-> >
-> > $|\vec a| \approx \frac{31.466 \, \frac{\text m}{\text s^2}}{11.0 \, \text s}$
-> >
-> > $|\vec a| \approx 2.861 \, \frac{\text m}{\text s^2}$
+>>
+> $|\Delta \vec v| \approx 31.466 \, \frac{\text m}{\text s^2}$
+>>
+> $|\vec a| = \frac{|\Delta \vec v|}{\Delta t}$
+>>
+> $|\vec a| \approx \frac{31.466 \, \frac{\text m}{\text s^2}}{11.0 \, \text s}$
+>>
+> $|\vec a| \approx 2.861 \, \frac{\text m}{\text s^2}$
 
 Giving me a final answer of `2.861 m/s^2`
 
-**This page is currently a work in progress, thanks for your patience!**
+## Q4: Accelerating vector particle
+### Question:
+> A particle moves in the $x$-$y$ plane with a constant acceleration of $\vec a$ = ( $-1.92 \hat i$ + $2.76 \hat j$ ) $\text m / \text s^2$. 
+> >
+> The velocity at time $t = 0 \, \text s$ is $\vec v$ = ( $4.26 \hat i$ - $5.49 \hat j$ ) $\text m / \text s^2$. 
+> >
+> Find the velocity at time $t$ = $6.0 \, \text s$.
+
+>Enter the x and y components of the velocity:
+
+### Variable Breakdown
+> $a = <-1.92, \, 2.76>$
+
+> $\vec v_i = <4.26, \, -5.49>$
+> >
+> $\vec v_f = <?, \, ?>$
+
+> $t_i = 0 \, \text s$
+> >
+> $t_f = 6 \, \text s$
+
+### Steps / Summary
+
+To complete this question, we can make use of the equation:
+
+$\vec v_f = \vec v_i + \vec a * t$
+
+Which can also be applied infividually to each component:
+
+$<v_{f, x}, \, v_{f, y}> \ = \ <v_{i, x}, \, v_{i, y}> + <a_x * t, \, a_y*t>$
+
+$<v_{f, x}, \, v_{f, y}> \ = \ <v_{i, x}, \, v_{i, y}> + <a_x * t, \, a_y*t>$
+
+$<v_{f, x}, \, v_{f, y}> \ = \ <v_{i, x} + a_x * t, \, v_{i, y} + a_y * t>$
+
+For my example problem, this works out to:
+> $<v_{f, x}, \, v_{f, y}> \ = \ <4.26 + -1.92*6, \, -5.49 + 2.76 * 6>$
+> >
+> $<v_{f, x}, \, v_{f, y}> \ = \ <-7.26, \, 11.07>$
+> >
+> $v_f \ = \ \left( -7.26i + 11.07j \right) * \left( \frac{\text m}{\text s}\right)$
+
+
+## Q5: Moving particle
+### Question:
+> A particle moves in the $x-y$ plane with constant acceleration. At time $t = 0 \, s$, the position vector for the particle is $\vec r = <1.30 \, m, \, 1.80 \, m>$. The acceleration is given by the vector 
+$\vec a = <3.20 \, \frac{m}{s^2}, \ 6.40 \, \frac{m}{s^2}>$. The velocity vector at time $t = 0 \, s$ is $\vec v = <10.00 \, \frac{m}{s} − 6.10 \, \frac{m}{s}>$.
+> - Find the magnitude of the velocity vector at time $t = 2.80 \, s$.
+(in m/s)
+> - What is the angle between the velocity vector and the positive x-axis at time $t = 2.80 \, s$? (in $deg$)
+> - What is the magnitude of the position vector at time $t = 2.80 \, s$? (in $m$) 
+> - What is the angle between the position vector and the positive x-axis at time $t = 2.80 \, s$? (in $deg$)
+
+### Variable Breakdown
+> $t \ = \ 2.80 \, s$
+
+ > $\vec r_i \ = \ <1.30 \, m, \, 1.80 \, m>$
+
+> $\vec v_i \ = \ <10.00 \, \frac{m}{s}, \ − 6.10 \, \frac{m}{s}>$
+
+> $\vec a = <3.20 \, \frac{m}{s^2}, \ 6.40 \, \frac{m}{s^2}>$
+
+### Steps / Summary
+#### Setup: Velocity vector at end time
+To find the final velocity vector, we can use the equation
+
+$\vec v_f = \vec v_i + \vec a * t$
+
+For my example problem, this looks like:
+> $\vec v_f \ = \ \vec v_i + \vec a * t$
+> >
+> $\vec v_f \ = \ <10.00 \, \frac{m}{s}, \ − 6.10 \, \frac{m}{s}> + <3.20 \, \frac{m}{s^2}, \ 6.40 \, \frac{m}{s^2}> * \ 2.80 \, s$
+> >
+> $\vec v_f \ = \ <18.96 \, \frac{m}{s}, \ − 11.82 \, \frac{m}{s}>$
+
+#### Setup: Position vector at end time
+
+And for the final position vector, we can use the equation:
+
+$\vec r_f = \vec r_i + \vec v_i * t + \frac{1}{2} * \vec a * t^2$
+
+which is just a vectorized version of the kinematics equation:
+
+$r_f = r_i + v_o*t + \frac{1}{2}*a*t^2$
+
+For my example problem, this looks like:
+> $\vec r_f \ = \ \vec r_i + \vec v_i * t + \frac{1}{2} * \vec a * t^2$
+> >
+> $\vec r_f \ = \ <1.30 \, m, \, 1.80 \, m> + \ <10.00 \, \frac{m}{s}, \ − 6.10 \, \frac{m}{s}> \ * \ 2.80 \, s + \frac{1}{2} * \ <3.20 \, \frac{m}{s^2}, \ 6.40 \, \frac{m}{s^2}> \ * \left( 2.80 \, s \right)^2$
+> >
+> $\vec r_f \ = \ <{ 41.844 } \, m, \ { 9.808 } \, m >$
+
+#### Part 1: Magnitude
+
+To find the magnitude of a vector $\vec A$, we can use the formula:
+
+$|\vec A| = \sqrt{\left(A_x\right)^2 + \left(A_y\right)^2}$
+
+We can apply this to both the final velocity and position vectors we found in the **Setup** in order to complete parts *1* and *3*:
+
+$|\vec v_f| = \sqrt{\left(v_{f,x}\right)^2 + \left(v_{f,y}\right)^2}$
+
+$|\vec r_f| = \sqrt{\left(r_{f,x}\right)^2 + \left(r_{f,y}\right)^2}$
+
+##### Magnitude of Velocity
+To solve for magnitude of velocity, we simply use what we found in the setup and plug it into:
+
+$|\vec v_f| = \sqrt{\left(v_{f,x}\right)^2 + \left(v_{f,y}\right)^2}$
+
+For my example problem, this works out to:
+> $|\vec v_f| = \sqrt{\left(v_{f,x}\right)^2 + \left(v_{f,y}\right)^2}$
+> >
+> $|\vec v_f| = \sqrt{\left(18.96 \, \frac{m}{s}\right)^2 + \left(-11.82 \, \frac{m}{s}\right)^2}$
+> >
+> $|\vec v_f| = 22.343 \, \frac{m}{s}$
+
+Giving me a velocity magnitude of `22.343 m/s`
+
+##### Magnitude of Position
+
+To solve for the magnitude of the position vector, we just use the Pythagorean theorem with the $r_x$ and $r_y$ values we found before:
+
+$|\vec r_f| = \sqrt{\left(r_{f,x}\right)^2 + \left(r_{f,y}\right)^2}$
+
+For my example problem, this works out to:
+> $|\vec r_f| = \sqrt{\left(r_{f,x}\right)^2 + \left(r_{f,y}\right)^2}$
+> >
+> $|\vec r_f| = \sqrt{\left(41.844 \, m \right)^2 + \left(9.808 \, m \right)^2}$
+>>
+> $|\vec r_f| = 42.978$
+
+Giving me a position vector magnitude of `42.978 m`
+
+#### Part 2: Angles
+
+To find the angle of a vector relative to the $x$-axis, we can use the equation:
+
+$\Theta = tan^{-1}{\frac{A_y}{A_x}}$
+
+And then increment / decrement the resulting $\Theta$ by intervals of 90 degrees if needed to adjust for the range of the inverse tangent function.
+
+##### Angle of Velocity Vector
+To find the angle of the velocity vector, we use the equations we found before for the angle of a vector relative to the positive $x$-axis
+
+$\Theta = tan^{-1}{\frac{A_y}{A_x}}$
+
+$\Theta = tan^{-1}{\frac{v_{f, y}}{v_{f, x}}}$
+
+For my example problem this works out to:
+> $\Theta = tan^{-1}{\frac{v_{f, y}}{v_{f, x}}}$
+> >
+> $\Theta = tan^{-1}{-\frac{11.82}{18.96}}$
+> >
+> $\Theta = -31.94°$
+> >
+> This angle is in $-90°< \Theta < 0°$, which means that it's already in the correct quadrant (+, -), and does not need to be corrected
+> >
+> Also, it's asking for the absolute value of the angle between, or at least that's what works
+
+Giving me a final velocity angle of `31.94°`
+
+##### Angle of Position Vector
+To find the angle of the position vector, we again use the inverse tangent function
+
+$\Theta = tan^{-1}{\frac{A_y}{A_x}}$
+
+$\Theta = tan^{-1}{\frac{r_{f, y}}{r_{f, x}}}$
+
+For my example problem this works out to:
+> $\Theta = tan^{-1}{\frac{r_{f, y}}{r_{f, x}}}$
+> >
+> $\Theta = tan^{-1}{\frac{9.808}{41.844}}$
+>>
+> $\Theta = 13.19°$> 
+> >
+> This angle is in $0°< \Theta < 90°$, which means that it's already in the correct quadrant (+, +), and does not need to be corrected
+> >
+> Note that you might have to use the absolute value of this angle, I'm not quite sure after the previous part
+
+Giving me a final position angle of `13.19°`
+
+## Q6: Car Stunt
+### Question:
+> An unoccupied car is sent off the top of a cliff during a movie scene. The car is moving at $57.41 \, km/hr$ at the instant it leaves the cliff. The cliff is $62.15 \, m$ high.
+How long is the car in the air? (in $s$) 
+
+### Variable Breakdown
+> $v_{x,i} = 57.41 \, km/hr$
+> >
+> $v_{x,i} = 15.947 \, m/s$
+
+> $\Delta y = -62.15 \, m$
+
+> $t = ?$
+
+### Steps / Summary
+#### Finding time
+to find the time spent in the air, we can solve for time in the kinematics equation, knowing that we have no initial vertical velocity:
+
+$\Delta y = v_{x,i}*t + \frac{1}{2}*a*t^2$
+
+$\Delta y = \frac{1}{2}*a*t^2$
+
+$t = \sqrt{\frac{2 * \Delta y}{-g}}$
+
+Which for my example problem works out to:
+> $t = \sqrt{\frac{2 * \Delta y}{-g}}$
+> >
+> $t = \sqrt{\frac{2 * {-62.15 \, m}}{-9.8 \, m/s^2}}$
+> >
+> $t = 3.5614 \, s$
+
+Giving me a solution of `3.5614 s` for this part
+
+#### Finding distance travelled
+To find the distance travelled by the car over this time, we can simply use the equation:
+
+$\Delta x = v * t$
+
+$\Delta x = v_{x,i} * t$
+
+Which for my example problem works out to:
+
+> $\Delta x = v_{x,i} * t$
+> >
+> $\Delta x = \left( 15.947 \, m/s \right) * \left( 3.5614 \, s \right)$
+> >
+> $\Delta x = 56.794 \, m$
+
+Giving me a final solution of `56.794 m`
+
+## Q7: Angled projectile
+### Question:
+> A projectile is fired at $42.5°$ above the horizontal. Its initial speed is equal to $32.5 \, m/s$. Assume that the free-fall acceleration is constant throughout and that the effects of the air can be ignored. 
+> - What is the maximum height reached by the projectile? (in $m$)
+> - At what time after being fired does the projectile reach this maximum height? (in $s$)
+
+### Variable Breakdown
+> $\Theta = 42.5°$
+
+> $v_i = 32.5 \, m/s$
+
+### Steps / Summary
+#### Setup: velocity components
+To find the y-component of velocity (the only one important to this question), we can use trigonometry to find $v_{i,y}$:
+
+$v_{i,y} = \sin{\Theta} * v_i$
+
+#### Part 2: Time
+The maximum height will be reached when velocity is 0, at the top of its arc. To find when the velocity is 0, we can use the equation:
+
+$v = v_i + a * t$
+
+where acceleration is the downwards acceleration of gravity, and we only care about the y-component:
+
+$0 \, m/s = v_{i,y} + \left( -9.8 \, m/s \right) * t$
+
+$t = \frac{v_{i,y}}{9.8 \, m/s}$
+
+$t = \frac{\sin{\Theta} * v_i}{9.8 \, m/s}$
+
+For my example problem, this works out to:
+> $t = \frac{\sin{\Theta} * v_i}{9.8 \, m/s}$
+> >
+> $t = \frac{\sin{42.5°} \ * \ 32.5 \, m/s}{9.8 \, m/s}$
+> >
+> $t = 2.240 \, s$
+
+Giving me a solution of `2.240 s`
+
+#### Part 1: Maximum height
+
+Now that we know when it reaches the maximum height, we can use a kinematics equation to find the max $y$.
+
+$y_{max} = y_i + v_{y,i} *t + \frac{1}{2}*a*t^2$
+
+$y_{max} = \sin{\Theta} * v_i *t + \frac{1}{2}*\left( -9.8 \, m/s^2 \right)*t^2$
+
+For my example problem, I can plug in my $t$ to get:
+> $y_{max} = \sin{\Theta} * v_i *t + \frac{1}{2}*\left( -9.8 \, m/s^2 \right)*t^2$
+>>
+> $y_{max} = \left( \sin{42.5°} \ * \ 32.5 \, m/s \right) *t + \frac{1}{2}*\left( -9.8 \, m/s^2 \right)*t^2$e
+> >
+> $y_{max} = 24.597 \, m$
+
+Giving me a final solution of `24.596 m`
+
+## Q8: Short Ball Thrower
+### Question:
+> A person who is $1 \, m$ tall throws a ball horizontally with a speed of $3.7 \, m/s$. What is the speed of the ball the moment before it strikes the ground (in $m/s$)?
+
+### Variable Breakdown
+> $y_i = 1.0 \, m$
+
+> $v_x = 3.7 \, m/s$
+
+### Steps / Summary
+
+We can reuse the equation for an object to hit the ground a distance $\Delta y$ away with a $v_y$ of $0$ :
+
+$t = \sqrt{\frac{2 * \Delta y}{-g}}$
+
+then substitute that into the equation for final velocity:
+
+$v_f = v_i + a * t$
+
+$v_{y.f} = v_{y,i} + \left( -9.8 \, m/s^2 \right) * t$
+
+$v_{y.f} = \left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * \Delta y}{-9.8 \, m/s^2}}$
+
+and use the Pythagorean theorem to find the magnitude of the final velocity (speed):
+
+$|\vec v| = \sqrt{\left( v_x  \right)^2 + \left( v_{y,f}  \right)^2}$
+
+$|\vec v| = \sqrt{\left( v_x  \right)^2 + \left( v_{y,f}  \right)^2}$
+
+$|\vec v| = \sqrt{\left( v_x  \right)^2 + \left( 
+\left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * \Delta y}{-9.8 \, m/s^2}} \,
+  \right)^2}$
+
+Which for my example problem works out to:
+> $|\vec v| = \sqrt{\left( v_x  \right)^2 + \left( 
+\left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * \Delta y}{-9.8 \, m/s^2}} \,
+  \right)^2}$
+> >
+> $|\vec v| = \sqrt{\left( 3.7 \, m/s  \right)^2 + \left( 
+\left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * -1 \, m}{-9.8 \, m/s^2}} \,
+  \right)^2}$
+ >>
+ > $|\vec v|  = 5.770 \, m/s$
+
+Giving me a final answer of `5.770 m/s`
+
+
+## Q9: More short "people" throwing balls
+### Question:
+> A person who is $1.2 \, m$ tall throws a ball with a speed of $6 \, m/s$ at an angle of $30°$ above the horizontal. What are the $x$ and $y$ components of the velocity (in m/s) of the ball the instant before it strikes the ground? The acceleration due to gravity is $9.81 \, m/s^2$
+> - What is the $x$-component
+> - What is the $y$-component
+
+### Variable Breakdown
+> $g = 9.81 \, m/s^2$
+
+> $\Theta = 30°$
+
+> $v_i = 6.0 \, m/s$
+
+> $\Delta y = -1.2 \, m$
+
+### Steps / Summary
+To solve this question, we use a similar process to **Q8**, except with a couple complications.
+
+#### Setup
+To get started, we'll use some trig to find the components of the initial velocity:
+
+$v_{i,x} = v_i * \cos{\Theta}$
+
+$v_{i,y} = v_i * \sin{\Theta}$
+
+now we'll be able to use these in place of the components in later equations
+
+#### Actual Solving
+To find the final vertical velocity $v_{f,y}$, we can use the equation:
+
+$v^2 = v_i^2 + 2*a*\Delta y$
+
+$v_{f,y}^2 = v_{i,y}^2 + 2*-g*\Delta y$
+
+and solve for $v_{f,y}$:
+
+$|v_{f,y}| = \sqrt{\left( v_i * \sin{\Theta} \right)^2 + 2*\left( -9.81 \, m/s \right)*\Delta y}$
+
+For my example problem, this would work out to:
+> $|v_{f,y}| = \sqrt{\left( v_i * \sin{\Theta} \right)^2 + 2*\left( -9.81 \, m/s \right)*\Delta y}$
+> >
+> $|v_{f,y}| = \sqrt{\left( \left( 6.0 \, m/s \right) * \sin{30°} \right)^2 + 2*\left( -9.81 \, m/s \right)* -1.2 \, m}$
+> >
+> $|v_{f,y}| = 5.705 \, m/s$
+> >
+> now we just have to correct this, to **account for the fact that the direction of the velocity is lost**
+
+Giving me a final $y$-component of `-5.705 m/s`
+
+#### Finishing up
+
+Don't forget to add our $v_x$ component from before, ($v_i * \cos{\Theta}$)
+
+For my example problem, this works out to:
+> $v_x = v_{i,x}$
+> >
+> $v_x = v_i * \cos{\Theta}$
+> >
+> $v_x = \left( 6.0 \, m/s \right) * \cos{30°}$
+> >
+> $v_x = 5.196 \, m/s$
+
+Giving me an $x$-component of `5.196 m/s`

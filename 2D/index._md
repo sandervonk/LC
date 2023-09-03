@@ -1,0 +1,370 @@
+# Lon Capa 2D - Guided Solutions
+
+## Q1: Helicopter Package
+### Question:
+> A helicopter is flying in a straight line over a level field at a constant speed of $6.6 \,m/s$ and at a constant altitude of $15.5 \, m$. A package is ejected horizontally from the helicopter with an initial speed of $14.6 \, m/s$ relative to the helicopter, and a direction opposite to the helicopter's motion. 
+> - Find the initial speed of the package relative to the ground. (in $m/s$)
+> - What is the horizontal distance between the helicopter and the package at the instant that the package strikes the ground? (in $m$)
+> - What angle between $0°$ and $90°$ does the velocity vector of the package make with the ground at the instant before impact, as seen from the ground? (in deg)
+
+### Variable Breakdown
+>
+
+> $v_{g,h} = 6.6 \, m/s$
+> >
+> $v_{h,p} = -14.6 \, m/s$
+
+> $y = 15.5 \, m$
+
+### Steps / Summary
+
+#### Part 1: Package-Ground Velocity
+To find the initial speed of the velocity $|v_{g,p}|$, we can use the equation:
+
+$v_{a,c} = v_{a,b} + v_{b,c}$
+
+$|v_{g,p}| = |v_{g,h} + v_{h,p}|$
+
+For my example problem, this works out to:
+> $|v_{g,p}| = |v_{g,h} + v_{h,p}|$
+> >
+> $|v_{g,p}| = |\left( 6.6 \, m/s \right) + \left( -14.6 \, m/s \right)|$
+> >
+> $|v_{g,p}| = |-8 \, m/s|$
+> >
+> $|v_{g,p}| = 8 \, m/s$
+
+Giving me a final answer of `8.00 m/s`
+
+#### Part 2: Relative Package Distance
+To find the horizontal distance $s_{h,p}$ travelled relative to the helicopter, we can use the equation:
+
+$t = \sqrt{\frac{2h}{g}}$
+
+$t = \sqrt{\frac{2 * y}{9.8 \, m/s^2}}$
+
+and substitute it into
+
+$s = |v| * t$
+
+$s_{h,p} = |v_{h,p}| * t$
+
+to get
+
+$s_{h,p} = |v_{h,p}| * \sqrt{\frac{2 * y}{9.8 \, m/s^2}}$
+
+For my example problem, this would work out to:
+> $s_{h,p} = |v_{h,p}| * \sqrt{\frac{2 * y}{9.8 \, m/s^2}}$
+> >
+> $s_{h,p} = |-14.6 \, m/s| * \sqrt{\frac{2 * 15.5 \, m}{9.8 \, m/s^2}}$
+> >
+> $s_{h,p} = 25.967 \, m$
+
+Giving me a final distance of `25.967 m`
+
+#### Part 3: Angle of package
+To find the angle $\Theta$ between the ground and velocity vector of the package $v_{g,p}$, we can 
+
+To solve this part, we'll use trig on the velocity between the ground and package $v_{g,p}$ we found earlier in order to find the angle.
+
+$\Theta = \tan^{-1}{\left( \frac{v_y}{v_x} \right)}$
+
+$\Theta = \tan^{-1}{\left( \frac{v_{g,p,y}}{v_{g,p}} \right)}$
+
+$\Theta = \tan^{-1}{\left( \frac{v_{p,y}}{v_{g,p}} \right)}$
+
+
+and substitute in the $v_{p,y}$:
+
+$v = a*t$
+
+$v_{p,y} = -g * t$
+
+$v_{p,y} = \left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * y}{9.8 \, m/s^2}}$
+
+$\Theta = \tan^{-1}{\left( \frac{\left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * y}{9.8 \, m/s^2}}}{|v_{g,h} + v_{h,p}|} \right)}$
+
+For my example problem, this would work out to
+> $\Theta = \tan^{-1}{\left( \frac{\left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * y}{9.8 \, m/s^2}}}{|v_{g,h} + v_{h,p}|} \right)}$
+> >
+> $\Theta = \tan^{-1}{\left( \frac{\left( -9.8 \, m/s^2 \right) * \sqrt{\frac{2 * 15.5 \, m }{9.8 \, m/s^2}}}{-8 \, m/s} \right)}$
+> >
+> $\Theta = 65.35°$
+
+Giving me a final angle of `65.35°`
+
+## Q2: Train Ball Toss
+### Question:
+> A train is travelling east along a straight run of track at $59.0 \, km/hr$. Inside, two siblings $2.0 \, m$ apart are playing catch directly across the aisle. The kid wearing a Tragically Hip T-shirt throws the ball horizontally north. The ball crosses the train and is caught $0.80 \, s$ later by her little brother. (Ignore any effects of gravity or friction.) 
+> - Find the magnitude of the ball's velocity from the little brother's point of view. (in $m/s$)
+> - What is the magnitude of the velocity of the ball as seen by someone standing still outside the train? (in $m/s$)
+> - What is the angle between the direction of the ball and the direction of the train as measured by someone standing still outside the train? (in $deg$)
+
+### Variable Breakdown
+> $d = 2.0 \, m$
+
+> $v_{g,t} = 59.0 \, km/hr$
+> >
+> $v_{g,t} = 16.389 \, m/s$
+
+### Steps / Summary
+#### Part 1: Magnitude of Ball's Velocity as Little Brother
+For this part of the question, since both the subjects are inside the train, we can forget about the train's movement, and just use:
+
+$|v| = \frac{|d|}{t}$
+
+$|v_{train, ball}| = \frac{|d_{train, ball}|}{t}$
+
+For my example problem, this works out to:
+> $|v_{train, ball}| = \frac{|d_{bro, ball}|}{t}$
+> >
+> $|v_{train, ball}| = \frac{|2.0\, m|}{0.80 \, s}$
+> >
+> $|v_{train, ball}| = 2.5 \, m/s$
+
+Giving me a magnitude of `2.50 m/s` for this part
+
+#### Part 2: 
+To find the velocity as observed from outside the train, we can use the same relationship as before:
+
+$\vec v_{a,c} = \vec v_{a,b} + \vec v_{b,c}$
+
+$\vec v_{track, ball} = \vec v_{track, train} + \vec v_{train, ball}$
+
+$|\vec v_{track, ball}| = \sqrt{
+\left( 
+	v_{track, train, x} v_{train, ball,x} 
+\right)^2
++ 
+\left( 
+	v_{track, train, y} v_{train, ball,y}
+\right)^2
+}$
+
+If we consider the motion of the ball to be along the x-axis, and the motion of the train as being along the y-axis, we can rewrite this as:
+
+$|\vec v_{track, ball}| = \sqrt{
+	|\vec v_{train, ball}|^2
+		+ 
+	|\vec v_{track, train}|^2
+}$
+
+Then substitute in $|\vec v_{train, ball}|$ as found in the previous part
+
+$|\vec v_{track, ball}| = \sqrt{
+	\left( 
+		\frac{|d_{train, ball}|}{t}
+	 \right)^2
+		+ 
+	|\vec v_{track, train}|^2
+}$
+
+For my example problem this works out to:
+> $|\vec v_{track, ball}| = \sqrt{
+	\left( 
+		 2.50 \, m/s
+	 \right)^2
+		+ 
+	|16.389 \, m/s|^2
+}$
+>>
+> $|\vec v_{track, ball}| = 16.579 \, m/s$
+
+Giving me an external magnitude of `16.579 m/s`
+
+#### Part 3: Angle of Travel
+To find the angle $\Theta$ at which the ball appeared to move relative to the train, we can use the equation:
+
+$\Theta = \tan^{-1}{\left(\frac{\text{opposite}}{\text{adjacent}} \right)}$
+
+Since the track of the train becomes the base of this triangle as per the problem text *"what is the angle between the direction of the ball and the direction of the train"*, the opposite side would be what we called the x-axis, perpendicular to the motion of the train, and the adjacent side would be the base of the triangle:
+
+$\Theta = \tan^{-1}{\left(\frac{|\vec v_{train, ball}|}{|\vec v_{track, train}|} \right)}$
+
+$\Theta = \tan^{-1}{\left(\frac{|\vec v_{train, ball}|}{|\vec v_{track, train}|} \right)}$
+
+Which we can subsitute our earlier value into
+
+$\Theta = \tan^{-1}{\left(\frac{\frac{|d_{train, ball}|}{t}}{|\vec v_{track, train}|} \right)}$
+
+For my example problem this works out to:
+> $\Theta = \tan^{-1}{\left(\frac{\frac{|d_{train, ball}|}{t}}{|\vec v_{track, train}|} \right)}$
+>>
+> $\Theta = \tan^{-1}{\left(\frac{|2.50 \, m/s|}{|16.389 \, m/s|} \right)}$
+> >
+> $\Theta = 8.673°$
+
+Giving me a final angle solution of `8.67°`
+
+## Q3: Cessna Citation Flight
+### Question:
+> A CESSNA Citation attains an airspeed of $540 \, km/hr$. The plane sets out for a destination $1107 \, km$ to the north (a $0°$ course) but discovers that the plane must be headed $20°$ east of north to fly there directly. The plane arrives in $2.00 \, hr$.
+> - What is the wind speed?
+(in km/hr)
+> - What is the direction of the wind? Give your answer in ° where 
+>   - North = $0°$
+>   - East = $90°$
+>   - South = $180°$
+>   - West = $270°$
+
+### Variable Breakdown
+Note that these are converted into the $x$-$y$ coordinate plane where due East is the $x$-axis, and $\Theta = 0°$ on the $x$-axis, and increases as we rotate counterclockwise.
+
+> $|\vec d_{g,p}| = 1107.0 \, km$
+
+> $t = 2.00 \, hr$
+
+> $|\vec v_{a,p}| = 240 \, km/hr$
+> >
+> $\Theta_{a,p} = 70°$
+
+> $\Theta_{g.p} = 90°$
+
+### Steps / Summary
+Please note the meaning of the subscripts is as follows
+- $a$ - air
+- $p$ - plane
+- $g$ - ground
+
+And:
+- $\vec v_{g,p}$ - groundspeed / ground vector
+- $\vec v_{g,a}$ - windspeed / wind vector
+- $\vec v_{a,p}$ - airspeed / air vector
+
+#### Finding the Vector
+To find the vector representation of the wind, we can use the formula from the previous questions:
+
+$v_{a,c} = v_{a,b} + v_{b,c}$
+
+And amend it to use our subscripts
+
+$\vec v_{g,p} = \vec v_{g,a} + \vec v_{a,p}$
+
+Which can then be integrated with our velocity equation for the plane's average velocity, based on how long it took to reach the destination
+
+$\vec v = \frac{\vec d}{t}$
+
+$\vec v_{g,p} = \frac{\vec d_{g,p}}{t}$
+
+$\frac{\vec d_{g,p}}{t} = \vec v_{g,a} + \vec v_{a,p}$
+
+And solve for the air vector $\vec v_{g,a}$:
+
+ $\vec v_{g,a} =  \frac{\vec d_{g,p}}{t} - \vec v_{a,p}$
+
+And write out the vectors in terms of their direction and magnitude components that were given:
+ 
+ $\vec v_{g,a} = 
+ \begin{bmatrix}
+	\frac{|\vec d_{a,p}|*\cos{\Theta_{g,p}}}{t}
+	\\
+	\frac{|\vec d_{a,p}|*\sin{\Theta_{g,p}}}{t}
+\end{bmatrix} -
+\begin{bmatrix}
+	|\vec v_{a,p}|*\cos{\Theta_{a,p}}
+	\\
+	|\vec v_{a,p}|*\sin{\Theta_{a,p}}
+\end{bmatrix}$
+
+ $\vec v_{g,a} = 
+ \begin{bmatrix}
+		\frac{|\vec d_{a,p}|*\cos{\Theta_{g,p}}}{t} -
+		|\vec v_{a,p}|*\cos{\Theta_{a,p}}
+	\\
+		\frac{|\vec d_{a,p}|*\sin{\Theta_{g,p}}}{t} -
+		|\vec v_{a,p}|*\sin{\Theta_{a,p}}
+\end{bmatrix}$
+
+For my example problem, this looks like:
+>   $\vec v_{g,a} = 
+ \begin{bmatrix}
+		\frac{|\vec d_{a,p}|*\cos{\Theta_{g,p}}}{t} -
+		|\vec v_{a,p}|*\cos{\Theta_{a,p}}
+	\\
+		\frac{|\vec d_{a,p}|*\sin{\Theta_{g,p}}}{t} -
+		|\vec v_{a,p}|*\sin{\Theta_{a,p}}
+\end{bmatrix}$
+>>
+>  $\vec v_{g,a} = 
+ \begin{bmatrix}
+		\frac{\left(  1107.0 \, km  \right)*\cos{90°}}{2.00 \, hr} -
+		\left(  540 \, km/hr  \right)*\cos{70°}
+	\\
+		\frac{\left(  1107.0 \, km  \right)*\sin{90°}}{2.00 \, hr} -
+		\left(  540 \, km/hr  \right)*\sin{70°}
+\end{bmatrix}$
+>>
+> $\vec v_{g,a} = \begin{bmatrix}
+-184.691 \, km/hr
+\\
+46.066 \, km/hr
+\end{bmatrix}$
+
+#### Part 1: Magnitude
+To find the magnitude of the air vector $|\vec v_{g,a}|$, we can use the Pythagorean theorem:
+
+$|\vec A| = \sqrt{\left( A_x \right)^2 + \left( A_y \right)^2}$
+
+$|\vec v_{g,a}| = \sqrt{\left( v_{ga,x} \right)^2 + \left( v_{ga,y} \right)^2}$
+
+And plug in the vector components we found in the previous part.  
+
+For my example problem, this looks like:
+> $|\vec v_{g,a}| = \sqrt{\left( v_{ga,x} \right)^2 + \left( v_{ga,y} \right)^2}$
+> >
+> $|\vec v_{g,a}| = \sqrt{\left( -184.691 \, km/hr \right)^2 + \left( 46.066 \, km/hr \right)^2}$
+> >
+> $|\vec v_{g,a}| = 190.35 \, km/hr$
+
+Giving me an wind velocity of `190.35 km/hr`
+
+
+#### Part 2: Angle
+To find the angle of a velocity vector $\vec v$, we can use the formula:
+
+$\Theta = \tan^{-1}{\left( \frac{v_y}{v_x} \right)}$
+
+Which we can then apply to this specific instance to find the **uncorrected** wind direction:
+
+$\Theta = \tan^{-1}{\left( \frac{v_{ga,y}}{v_{ga,x}} \right)}$
+
+Now, just plug in the values that we found for the vector $\vec v_{g,a}$
+
+For my example problem, this works out to:
+> $\Theta = \tan^{-1}{\left( \frac{v_{ga,y}}{v_{ga,x}} \right)}$
+> >
+> $\Theta = \tan^{-1}{\left( \frac{
+	-46.066 \, km/hr
+}{
+	184.691 \, km/hr
+} \right)}$
+>>
+> $\Theta = -14.01°$
+
+This angle then needs to be corrected by adding increments of $90°$ in order to account for the limitations in the range of the $\tan^{-1}$ function.
+
+For my example problem:
+> the vector $\vec v_{g,a}$ should be in the second ( - , + ) quadrant, so we need to add 180 degrees:
+> $\Theta_{found} = \Theta + 180°$
+> >
+> $\Theta_{found} = -14.0° + 180°$
+> >
+> $\Theta_{found} = 166°$
+
+Before we finish, we need to convert our answer back into the directional system that the problem gave originally. To do so, we can use the formula:
+
+$\Theta_{original} = 90° - \Theta_{found}$
+
+For my exapmle problem, this works out to:
+> $\Theta_{original} = 90° - 166°$
+> >
+> $\Theta_{original} = -76°$
+> 
+>>
+> To keep it positive, we can add 360 degrees:
+> >
+> $\Theta_{original} = -76° + 360°$
+> >
+> $\Theta_{original} = 284°$
+
+Giving me a final solution of `284°`

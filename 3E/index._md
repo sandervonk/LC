@@ -61,7 +61,7 @@ $|\vec F_c| = |\vec W + \vec N_{top}|$
 $|\vec F_c| = |\left( -M*g \right) + N_{top}|$  
 $|\vec F_c| = |N_{top} - M*g|$  
 
-Keep in mind that in this scenario, the centripetal force points **downward**, since it always points toward the anchor point of the rotation.
+Keep in mind that in this scenario, the centripetal force points **downward**, since it always points toward the anchor point of the rotation. This is why we said that $|\vec F_c|$ was *negative*.
 
 #### Solving for the bottom
 By "apparent weight," this question is referencing the normal force ($N$) exerted on the student. 
@@ -70,7 +70,7 @@ At the bottom of the roller coaster, we can construct a similar equation, keepin
 
 $\vec F_{net} = 0$  
 $\vec F_{net} = \vec W + \vec N_{bottom} + \vec F_c$  
-$\vec F_{net} = \vec W + \vec N_{bottom} + |\vec F_c$  
+$\vec F_{net} = \vec W + \vec N_{bottom} + |\vec F_c|$  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk1Nzg1MjUsNzI2MTYxMjk1XX0=
+eyJoaXN0b3J5IjpbOTIyOTYwNTkzLDcyNjE2MTI5NV19
 -->

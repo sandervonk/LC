@@ -73,10 +73,10 @@ $\vec F_{net} = 0$
 $\vec F_{net} = \vec W + \vec N_{bottom} + \vec F_c$  
 $0 = \vec W + \vec N_{bottom} + |\vec F_c|$  
 $\vec N_{bottom} = -\left( \vec W + |\vec F_c| \right)$  
-$\vec N_{bottom} = -\left( \vec W + |N_{top} - M*g| \right)$  
+$\vec N_{bottom} = -\left( \vec M*g + |N_{top} - M*g| \right)$  
 
-= 
+= - ()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjU4MDY5MSwxODk2MzI2MzAzLDExOT
+eyJoaXN0b3J5IjpbMTY1NzUxMzI2MCwxODk2MzI2MzAzLDExOT
 MzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV19
 -->

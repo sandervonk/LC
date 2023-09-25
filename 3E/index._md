@@ -59,7 +59,7 @@ And calculate the magnitude of the centripetal force $|\vec F_c|$ as:
 
 $|\vec F_c| = |\vec W + \vec N_{top}|$  
 $|\vec F_c| = |\left( -M*g \right) + N_{top}|$  
-$|\vec F_c| = |N_{top} - M*g|$  
+$|\vec F_c| = -|N_{top} - M*g|$  
 
 Keep in mind that in this scenario, the centripetal force points **downward**, since it always points toward the anchor point of the rotation. This is why we said that $|\vec F_c|$ was *negative*.
 
@@ -72,5 +72,6 @@ $\vec F_{net} = 0$
 $\vec F_{net} = \vec W + \vec N_{bottom} + \vec F_c$  
 $\vec F_{net} = \vec W + \vec N_{bottom} + |\vec F_c|$  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyOTYwNTkzLDcyNjE2MTI5NV19
+eyJoaXN0b3J5IjpbLTQ4NjAxMDU0OCw5MjI5NjA1OTMsNzI2MT
+YxMjk1XX0=
 -->

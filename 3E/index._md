@@ -60,9 +60,10 @@ Then, knowing that centri**petal** force has the same magnitude as the centri**f
 $F_{cf} = W + N$  
 
 $F_{cf} = F_{cp}$  
-$F_{cp} = \frac{mv^2}{r}$
+$F_{cp} = \frac{mv^2}{r}$  
 $F_{cf} = \frac{mv^2}{r}$  
-$F_{cf} = \frac{mv^2}{r}$  
+
+$W + N = \frac{mv^2}{r}$  
 
 
 ## Q3: Escaping Roller Coaster Car
@@ -72,7 +73,8 @@ $F_{cf} = \frac{mv^2}{r}$
 
 ### Variable Breakdown
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM2OTM0MzksLTEwOTg5OTYyMjQsOD
-A0NDkwNTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2MzI2
-MzAzLDExOTMzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV19
+eyJoaXN0b3J5IjpbNDczNjkwOTI3LC0xMjczNjkzNDM5LC0xMD
+k4OTk2MjI0LDgwNDQ5MDU2MSwxMDMxNjYxMjAxLDE2NTc1MTMy
+NjAsMTg5NjMyNjMwMywxMTkzMzAxNTczLDkyMjk2MDU5Myw3Mj
+YxNjEyOTVdfQ==
 -->

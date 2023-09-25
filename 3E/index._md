@@ -49,10 +49,10 @@ Giving me a tension of `466.35 N`
 
 ### Steps / Summary
 #### Finding the initial condition
-At the very top of the roller coaster, the normal force is directly downward. To find the velocity of the roller coaster at this point we can use the definition of centripetal force based on the net forces:
+At the very top of the roller coaster, the normal force is directly downward. To find the velocity of the roller coaster at this point we can use the definition of centrifugal force based on the net forces, with a downwards weight and outwards centrifugal force
 
 $F_{net} = 0$  
-$F_{net} = W + N$  
+$F_{net} = -W + F_c - N$  
 
 ## Q3: Escaping Roller Coaster Car
 ### Question:
@@ -61,7 +61,7 @@ $F_{net} = W + N$
 
 ### Variable Breakdown
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTczMzM4MjMsLTEwOTg5OTYyMjQsOD
-A0NDkwNTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2MzI2
-MzAzLDExOTMzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV19
+eyJoaXN0b3J5IjpbMzY2NjE1MTU1LC0xMDk4OTk2MjI0LDgwND
+Q5MDU2MSwxMDMxNjYxMjAxLDE2NTc1MTMyNjAsMTg5NjMyNjMw
+MywxMTkzMzAxNTczLDkyMjk2MDU5Myw3MjYxNjEyOTVdfQ==
 -->

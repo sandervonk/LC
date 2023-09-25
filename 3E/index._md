@@ -48,11 +48,9 @@ Giving me a tension of `466.35 N`
 > $N = 348 \, \text {N}$  
 
 ### Steps / Summary
-At the top of our roller coaster, gravity is working downwards as the centripetal force (such that we are not flung into space), such that:
+In a free body diagram of the seat at the very top of the roller coaster, $W$ points down, and $N$ points upwards with a smaller magnitude. The difference between these two magnitudes needed to make a $F_net = 0 \, \text{N}$ system is $F_c$, the centripetal force. We can assert that:
 
-$W = N + F_c$
-
-In a free body diagram at this point at the very top of the roller coaster, $W$ points down, and the $N$ points upwards with a smaller magnitude. The difference of these magnitudes is $F_c$
+$\vec W = \fec N + F_c$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MTI3NTEsNzI2MTYxMjk1XX0=
+eyJoaXN0b3J5IjpbMTcwOTMyMzA4MSw3MjYxNjEyOTVdfQ==
 -->

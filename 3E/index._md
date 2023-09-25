@@ -1,0 +1,42 @@
+# Lon Capa 3E - Guided Solutions
+
+## Q1: Hammer throw
+### Question
+> A hammer thrower whirls a $16.2 \text{kg}$ iron ball on the end of a $0.9 \text{m}$ string at $0.9 \frac{\text{rev}}{\text {s}}$ in a horizontal circle. Calculate the force in the string.
+
+### Variable Breakdown
+> $m_{ball} = 16.2 \text{kg}$  
+> $r = 0.9 \text{m}$  
+> $\omega = 0.9 \frac{\text{rev}}{\text {s}}$
+
+### Steps / Summary
+Some nice AP1 review we love to see it
+#### Setup
+To find the tangential velocity $v$, we can use $v = \omega * c$,  where $c$ is the circumference, since every revolution, the ball will be traversing the entire circumference of its circular path!  
+
+For my example problem, this might look like:
+> $v = \omega * c$  
+> $v = 0.9 \frac{\text{rev}}{\text {s}} * 2 \pi \frac{\text{rad}}{\text{rev}} * r$  
+> $v = 0.9 \frac{\text{rev}}{\text {s}} * 2 \pi \frac{\text{rad}}{\text{rev}} * 0.9 \text{m}$  
+> $v \approx 5.09 \frac{\text{m}}{\text {s}}$  
+
+Now that we have our tangential velocity, we can work using the centripetal force. Since our ball has a constant velocity, we know our net force must be 0. Therefore:
+
+$\vec F_{net} = \vec F_c + \vec T$  
+$|\vec F_c| = |\vec T|$  
+
+We can then use the equation for centripetal force to find tension:  
+$|\vec F_c| = \frac{mv^2}{r}$  
+$|\vec T| = |\vec F_c|$  
+$|\vec T| = | \frac{mv^2}{r}|$  
+
+For my example problem, this works out to:
+> $|\vec T| = | \frac{mv^2}{r}|$  
+> $|\vec T| = | \frac{\left( 16.2 \text{kg} \right)\left( 5.09 \frac{\text{m}}{\text {s}} \right)^2}{0.9 \text{m}}|$  
+> $|\vec T| = | 466.35 N|$  
+
+Giving me a tension of `466.35 N`
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzI2MTYxMjk1XX0=
+-->

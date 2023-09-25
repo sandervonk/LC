@@ -44,7 +44,7 @@ Giving me a tension of `466.35 N`
 
 ### Variable Breakdown
 > $M = 69 \, \text{kg}$  
-> $R = 16 \, \text {m}$  
+> $R = 16 \, \text {m}$ (useless)  
 > $N = 348 \, \text {N}$  
 
 ### Steps / Summary
@@ -73,6 +73,6 @@ $\vec F_{net} = 0$
 $\vec F_{net} = \vec W + \vec N_{bottom} + \vec F_c$  
 $\vec F_{net} = \vec W + \vec N_{bottom} + |\vec F_c|$  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzMwMTU3Myw5MjI5NjA1OTMsNzI2MT
-YxMjk1XX0=
+eyJoaXN0b3J5IjpbLTY5NzExNjQ2MCwxMTkzMzAxNTczLDkyMj
+k2MDU5Myw3MjYxNjEyOTVdfQ==
 -->

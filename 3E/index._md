@@ -48,10 +48,10 @@ Giving me a tension of `466.35 N`
 > $N = 348 \, \text {N}$  
 
 ### Steps / Summary
+#### Finding the initial condition
+In a free body diagram of the seat at the very top of the roller coaster, $\vec W$ points down, and $\vec N_{top}$ points upwards with a smaller magnitude. The difference between these two magnitudes needed to make a $\vec F_{net} = 0 \, \text{N}$ system is $F_c$, the centripetal force. We can assert that at this point:  
 
-
-In a free body diagram of the seat at the very top of the roller coaster, $\vec W$ points down, and $\vec N_{top}$ points upwards with a smaller magnitude. The difference between these two magnitudes needed to make a $\vec F_{net} = 0 \, \text{N}$ system is $F_c$, the centripetal force. We can assert that at this point:
-
+$F_{net} = 0$  
 $F_{net} = \vec W + \vec N_{top} + \vec F_c$  
 $0 = \vec W + \vec N_{top} + \vec F_c$  
 
@@ -60,6 +60,10 @@ And calculate the magnitude of the centripetal force $|\vec F_c|$ as:
 $\vec F_c = |\vec W + \vec N_{top}|$  
 $\vec F_c = |\left( -M*g \right) + N_{top}|$  
 $\vec F_c = |N_{top} - M*g|$  
+
+#### Solving for the bottom
+By "apparent weight," this question is referencing the normal force exerted on the student. At the bottom of the roller coaster, we can construct a similar equation:  
+$F_{net} = 0$  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1ODEwNTk5LDcyNjE2MTI5NV19
+eyJoaXN0b3J5IjpbLTE4NjUzODQ0NSw3MjYxNjEyOTVdfQ==
 -->

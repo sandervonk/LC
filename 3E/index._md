@@ -67,12 +67,12 @@ Keep in mind that in this scenario, the centripetal force points **downward**, s
 #### Solving for the bottom
 By "apparent weight," this question is referencing the normal force ($N$) exerted on the student. 
 
-At the bottom of the roller coaster, we can construct a similar equation, keeping in mind that in *this* scenario, the centripetal force points **upward**, since it always points toward the anchor point of the rotation, which, at the bottom, is above it
+At the bottom of the roller coaster, we can construct a similar equation, keeping in mind that in *this* scenario, the centripetal force points **upward**, since it always points toward the anchor point of the rotation, which, at the bottom, is above it;
 
 $\vec F_{net} = 0$  
 $\vec F_{net} = \vec W + \vec N_{bottom} + \vec F_c$  
-$\vec F_{net} = \vec W + \vec N_{bottom} + |\vec F_c|$  
+$0 = \vec W + \vec N_{bottom} + |\vec F_c|$  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzExNjQ2MCwxMTkzMzAxNTczLDkyMj
+eyJoaXN0b3J5IjpbMTg5NjMyNjMwMywxMTkzMzAxNTczLDkyMj
 k2MDU5Myw3MjYxNjEyOTVdfQ==
 -->

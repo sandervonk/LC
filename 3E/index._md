@@ -37,17 +37,18 @@ For my example problem, this works out to:
 
 Giving me a tension of `466.35 N`
 
-## Q2: Ferry Wheel
+## Q2: Ferry Wheel (more or less)
 ### Question
 > A student of mass $M = 69 \text{kg}$ takes a ride in a frictionless loop-the-loop at an amusement park. The radius of the loop-the-loop is $R = 16 \text {m}$. The force due to the seat on the student at the top of the loop-the-loop is $N = 348 \text {N}$ and is vertically down. 
 > - What is the apparent weight of the student at the bottom of the loop-the-loop?
 
 ### Variable Breakdown
-> $M = 69 \text{kg}$  
+> $M = 69 \, \text{kg}$  
 > $R = 16 \, \text {m}$  
 > $N = 348 \, \text {N}$  
 
 ### Steps / Summary
+At the top of our roller coaster, gravity is working down, but the centripetal force is working to fling 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4NDU5MjE3LDcyNjE2MTI5NV19
+eyJoaXN0b3J5IjpbLTEwNzIxNzk1NjUsNzI2MTYxMjk1XX0=
 -->

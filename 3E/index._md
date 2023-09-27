@@ -119,17 +119,24 @@ $$N + 6mg$$
 
 ### Steps / Summary
 
-To have the exact right velocity to stay on the circle, the centrifugal force must be
+To have the exact right velocity to stay on the circle, the centripetal force must be
 
-$F_c = mv^2$
+$F_c = \frac{mv^2}{r}$
+
+and to stay in circular motion:
+
+$F_{net} = F_c$
 
 At the top of the circle:
 
-$F_{net} = F_c F_g$
+$F_{net} = F_g$
+$F_c = F_g$  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ5OTAwMzIsLTc4NjI2MDk5NCwtMT
-k4NzE5Mzk0MCwxMjI1MDM1NTczLDczODE1NTEzOCwtNTI1MDc5
-NzE3LC0xMjczNjkzNDM5LC0xMDk4OTk2MjI0LDgwNDQ5MDU2MS
-wxMDMxNjYxMjAxLDE2NTc1MTMyNjAsMTg5NjMyNjMwMywxMTkz
-MzAxNTczLDkyMjk2MDU5Myw3MjYxNjEyOTVdfQ==
+eyJoaXN0b3J5IjpbLTgwMjkyNTc3MiwtMjE0NDk5MDAzMiwtNz
+g2MjYwOTk0LC0xOTg3MTkzOTQwLDEyMjUwMzU1NzMsNzM4MTU1
+MTM4LC01MjUwNzk3MTcsLTEyNzM2OTM0MzksLTEwOTg5OTYyMj
+QsODA0NDkwNTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2
+MzI2MzAzLDExOTMzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV
+19
 -->

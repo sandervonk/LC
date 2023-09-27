@@ -79,10 +79,16 @@ $E = K + U$
 And then use the concept of conservation of energy to assert that  
 $E_i = E_f$  
 $K_i + U_i = K_f + U_f$  
+
+And subsequently solve for the velocity at the bottom
 $\left( \frac{1}{2}mv_i^2 \right) + \left( mgh_i \right) = \left( \frac{1}{2}mv_f^2 \right) + \left( mgh_f \right)$  
 $\frac{1}{2}v_i^2 + gh_i = \frac{1}{2}v_f^2 + gh_f$  
 $\frac{1}{2}\left( \frac{m\left( W + N \right)}{R} \right) + g\left( 2R \right) = \frac{1}{2}v_f^2 + 0$  
-$\sqrt{\frac{m\left( W + N \right)}{R} + 4gR}$  
+$v_f = \sqrt{\frac{m\left( W + N \right)}{R} + 4gR}$  
+
+Now we can plug this back into our equation for the normal force in order to find what the normal force at the bottom must've been!
+$F_{net} = 0$  
+$F_{net} = -W - F_c - N$   
 
 ## Q3: Escaping Roller Coaster Car
 ### Question:
@@ -93,7 +99,7 @@ $\sqrt{\frac{m\left( W + N \right)}{R} + 4gR}$
 > $r = 12.0 \, \text{m}$  
 > $m = 480 \, \text{kg}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzkzMDA3Myw3MzgxNTUxMzgsLTUyNT
+eyJoaXN0b3J5IjpbLTI2OTk1OTgyOSw3MzgxNTUxMzgsLTUyNT
 A3OTcxNywtMTI3MzY5MzQzOSwtMTA5ODk5NjIyNCw4MDQ0OTA1
 NjEsMTAzMTY2MTIwMSwxNjU3NTEzMjYwLDE4OTYzMjYzMDMsMT
 E5MzMwMTU3Myw5MjI5NjA1OTMsNzI2MTYxMjk1XX0=

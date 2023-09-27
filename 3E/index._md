@@ -79,7 +79,8 @@ $E = K + U$
 And then use the concept of conservation of energy to assert that  
 $E_i = E_f$  
 $K_i + U_i = K_f + U_f$  
-$\left( \frac{1}{2}mv_i^2 \right) + U_i = K_f + U_f$  
+$\left( \frac{1}{2}mv_i^2 \right) + \left( mgh_i \right) = \left( \frac{1}{2}mv_f^2 \right) + \left( mgh_f \right)$  
+$\frac{1}{2}v_i^2 + gh_i = \left( \frac{1}{2}mv_f^2 \right) + \left( mgh_f \right)$  
 
 ## Q3: Escaping Roller Coaster Car
 ### Question:
@@ -90,8 +91,8 @@ $\left( \frac{1}{2}mv_i^2 \right) + U_i = K_f + U_f$
 > $r = 12.0 \, \text{m}$  
 > $m = 480 \, \text{kg}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU4MjQ0OTIsNzM4MTU1MTM4LC01Mj
-UwNzk3MTcsLTEyNzM2OTM0MzksLTEwOTg5OTYyMjQsODA0NDkw
-NTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2MzI2MzAzLD
-ExOTMzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV19
+eyJoaXN0b3J5IjpbMjc4MTcyNzY4LDczODE1NTEzOCwtNTI1MD
+c5NzE3LC0xMjczNjkzNDM5LC0xMDk4OTk2MjI0LDgwNDQ5MDU2
+MSwxMDMxNjYxMjAxLDE2NTc1MTMyNjAsMTg5NjMyNjMwMywxMT
+kzMzAxNTczLDkyMjk2MDU5Myw3MjYxNjEyOTVdfQ==
 -->

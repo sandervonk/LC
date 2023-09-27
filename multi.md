@@ -72,7 +72,9 @@ $x^2+y^2+z^2=9$
 $z=2$  
 
 $x^2+y^2+\left(2\right)^2=9$  
+$x^2+y^2=5$  
+$x^2+y^2=\left(\sqrt{5}\right)^2$  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NjI2NjkxLC0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbMTkzODI1MjQ0NSwtMTgzNTE3NTY2NF19
 -->

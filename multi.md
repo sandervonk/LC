@@ -75,6 +75,8 @@ $x^2+y^2+\left(2\right)^2=9$
 $x^2+y^2=5$  
 $x^2+y^2=\left(\sqrt{5}\right)^2$  
 
+This is the equation for a cylinder with radius $\sqrt{5}$. $z$ is arbitrary, however, we know that $z$ must equal $2$ for this equation for it to intersect, so we can take the slice at $z=2$.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODI1MjQ0NSwtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

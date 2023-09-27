@@ -102,7 +102,7 @@ For my example problem, this works out to
 > $N_f = 69*9.8 + \frac{69 \left( \frac{69\left( 9.8*69 + 348 \right)}{16} + 4*9.8*16 \right) ^2}{16}$  
 > >
 > >
-> hint hint it doesn't work out
+> Hint hint it doesn't work out, sorry if you've been working through all this, but hopefully you caught whatever mistakes I made!
    
 #### What even
 Apparently this works?  
@@ -137,15 +137,17 @@ $v^2 = gr$
 $v = \sqrt{gr}$  
 
 For my example problem this works out to:  
-$v = \sqrt{gr}$  
-$v = \sqrt{9.8*12}$  
-$v = \sqrt{9.8*12}$  
+> $v = \sqrt{gr}$  
+> $v = \sqrt{9.8*12}$  
+> $v = 10.8 \, \frac{\text m}{\text s}$
+
+Giving me a maximum velocity of `10.8 m/s`  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjY0NjA3MywtMjE0NDk5MDAzMiwtNz
-g2MjYwOTk0LC0xOTg3MTkzOTQwLDEyMjUwMzU1NzMsNzM4MTU1
-MTM4LC01MjUwNzk3MTcsLTEyNzM2OTM0MzksLTEwOTg5OTYyMj
-QsODA0NDkwNTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2
-MzI2MzAzLDExOTMzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV
-19
+eyJoaXN0b3J5IjpbLTE4OTgzNTE5NjEsLTIxNDQ5OTAwMzIsLT
+c4NjI2MDk5NCwtMTk4NzE5Mzk0MCwxMjI1MDM1NTczLDczODE1
+NTEzOCwtNTI1MDc5NzE3LC0xMjczNjkzNDM5LC0xMDk4OTk2Mj
+I0LDgwNDQ5MDU2MSwxMDMxNjYxMjAxLDE2NTc1MTMyNjAsMTg5
+NjMyNjMwMywxMTkzMzAxNTczLDkyMjk2MDU5Myw3MjYxNjEyOT
+VdfQ==
 -->

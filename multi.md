@@ -63,7 +63,9 @@ Each unique combination of signs $(\pm, \pm, \pm)$ is an octant. If you chopped 
 
 In the first octant, x, y, and z should all be positive
 
-## In Practice, 
+## Graphing and Surfaces
+A surface is anything that has area.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MzIyODMxLC0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbLTEwMjA1NzQ1MTIsLTE4MzUxNzU2NjRdfQ
+==
 -->

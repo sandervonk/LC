@@ -129,11 +129,20 @@ $F_{net} = F_c$
 
 At the top of the circle:
 
-$F_{net} = F_g$
+$F_{net} = F_g$  
 $F_c = F_g$  
+$\frac{mv^2}{r} = mg$  
+$\frac{v^2}{r} = g$  
+$v^2 = gr$  
+$v = \sqrt{gr}$  
+
+For my example problem this works out to:  
+$v = \sqrt{gr}$  
+$v = \sqrt{9.8*12}$  
+$v = \sqrt{9.8*12}$  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjkyNTc3MiwtMjE0NDk5MDAzMiwtNz
+eyJoaXN0b3J5IjpbLTQ5MjY0NjA3MywtMjE0NDk5MDAzMiwtNz
 g2MjYwOTk0LC0xOTg3MTkzOTQwLDEyMjUwMzU1NzMsNzM4MTU1
 MTM4LC01MjUwNzk3MTcsLTEyNzM2OTM0MzksLTEwOTg5OTYyMj
 QsODA0NDkwNTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2

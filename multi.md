@@ -66,10 +66,13 @@ In the first octant, x, y, and z should all be positive
 ## Intersection and Surfaces
 A surface is anything that has area.
 
-To draw the intersection between the plane $z=2$ and sphere $x^2+y^2=9$ for example, we can say that since the $z$ must equal $2$:
+To draw the intersection between the plane $z=2$ and sphere $x^2+y^2+z^2=9$ for example, we can say that since the $z$ must equal $2$:
 
+$x^2+y^2+z^2=9$  
+$z=2$  
 
+$x^2+y^2+\left(2\right)^2=9$  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDE1MTc5NywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbMzg1NjI2NjkxLC0xODM1MTc1NjY0XX0=
 -->

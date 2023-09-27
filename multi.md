@@ -63,7 +63,7 @@ Each unique combination of signs $(\pm, \pm, \pm)$ is an octant. If you chopped 
 
 In the first octant, x, y, and z should all be positive
 
-## Intersection and Surfaces
+## Surfaces and Intersection
 A surface is anything that has area.
 
 To draw the intersection between the plane $z=2$ and sphere $x^2+y^2+z^2=9$ for example, we can say that since the $z$ must equal $2$:
@@ -78,6 +78,6 @@ $x^2+y^2=\left(\sqrt{5}\right)^2$
 This is the equation for a cylinder with radius $\sqrt{5}$, since $z$ is arbitrary. However, we know that $z$ must equal $2$ for this equation for it to intersect, so we can take the slice at $z=2$, which leaves us with a circle.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xOD
-M1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbMTc1NDcxNTgxMywxOTU3ODc5MzU5LDE2MD
+c0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
 -->

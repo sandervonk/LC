@@ -99,7 +99,7 @@ $N_f = mg + \frac{m \left( \frac{m\left( W + N \right)}{R} + 4gR \right) ^2}{R}$
 
 For my example problem, this works out to
 > $N_f = mg + \frac{m \left( \frac{m\left( W + N \right)}{R} + 4gR \right) ^2}{R}$  
-> $N_f = 69*9.8 + \frac{69 \left( \frac{69\left( W + N \right)}{R} + 4*9.8*16 \right) ^2}{R}$  
+> $N_f = 69*9.8 + \frac{69 \left( \frac{69\left( 9.8*69 + 348 \right)}{16} + 4*9.8*16 \right) ^2}{16}$  
    
 
 ## Q3: Escaping Roller Coaster Car
@@ -111,7 +111,7 @@ For my example problem, this works out to
 > $r = 12.0 \, \text{m}$  
 > $m = 480 \, \text{kg}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzY5MzY2OSw3MzgxNTUxMzgsLTUyNT
+eyJoaXN0b3J5IjpbMTIyNTAzNTU3Myw3MzgxNTUxMzgsLTUyNT
 A3OTcxNywtMTI3MzY5MzQzOSwtMTA5ODk5NjIyNCw4MDQ0OTA1
 NjEsMTAzMTY2MTIwMSwxNjU3NTEzMjYwLDE4OTYzMjYzMDMsMT
 E5MzMwMTU3Myw5MjI5NjA1OTMsNzI2MTYxMjk1XX0=

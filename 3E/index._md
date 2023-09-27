@@ -71,8 +71,11 @@ $v = \sqrt{\frac{m\left( W + N \right)}{r}}$
 Now this is where it gets fun. We can use the mechanical energy formulas we used in AP 1 to solve;
 ###### Kinetic Energy
 $K = \frac{1}{2}mv^2$
-###### (Gravitational) potential energy
-$$
+###### (Gravitational) Potential Energy
+$U_g = mgh$
+###### Total Mechanical Energy
+$TME = a$
+And then use the concept of conservation of energy to assert that
 
 ## Q3: Escaping Roller Coaster Car
 ### Question:
@@ -83,8 +86,8 @@ $$
 > $r = 12.0 \, \text{m}$  
 > $m = 480 \, \text{kg}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzMjI0ODM2LDczODE1NTEzOCwtNTI1MD
-c5NzE3LC0xMjczNjkzNDM5LC0xMDk4OTk2MjI0LDgwNDQ5MDU2
-MSwxMDMxNjYxMjAxLDE2NTc1MTMyNjAsMTg5NjMyNjMwMywxMT
-kzMzAxNTczLDkyMjk2MDU5Myw3MjYxNjEyOTVdfQ==
+eyJoaXN0b3J5IjpbMjA2MDMzNjQyMiw3MzgxNTUxMzgsLTUyNT
+A3OTcxNywtMTI3MzY5MzQzOSwtMTA5ODk5NjIyNCw4MDQ0OTA1
+NjEsMTAzMTY2MTIwMSwxNjU3NTEzMjYwLDE4OTYzMjYzMDMsMT
+E5MzMwMTU3Myw5MjI5NjA1OTMsNzI2MTYxMjk1XX0=
 -->

@@ -1,3 +1,5 @@
+# Basics of Vectors
+
 ## Parallel Vectors
 $\vec u$ and $\vec u$ are parallel if $\vec u$ can be expressed as some scalar constant times $\vec v$:  
 $$\vec u = c \cdot \vec v$$  
@@ -60,6 +62,8 @@ This means that the specified axis has a value of $c$ (again, $c \in \mathbb R$)
 Each unique combination of signs $(\pm, \pm, \pm)$ is an octant. If you chopped the block that the coordinate plane represents along each major axis ($x$, $y$, $z$), you would be left with these 8 octants.
 
 In the first octant, x, y, and z should all be positive
+
+## In Practice, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbODE4MzIyODMxLC0xODM1MTc1NjY0XX0=
 -->

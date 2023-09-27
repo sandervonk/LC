@@ -72,10 +72,14 @@ Now this is where it gets fun. We can use the mechanical energy formulas we used
 ###### Kinetic Energy
 $K = \frac{1}{2}mv^2$
 ###### (Gravitational) Potential Energy
-$U_g = mgh$
+$U = mgh$
 ###### Total Mechanical Energy
-$TME = a$
-And then use the concept of conservation of energy to assert that
+$E = K + U$  
+
+And then use the concept of conservation of energy to assert that  
+$E_i = E_f$  
+$K_i + U_i = K_f + U_f$  
+$\left( \frac{1}{2}mv_i^2 \right) + U_i = K_f + U_f$  
 
 ## Q3: Escaping Roller Coaster Car
 ### Question:
@@ -86,8 +90,8 @@ And then use the concept of conservation of energy to assert that
 > $r = 12.0 \, \text{m}$  
 > $m = 480 \, \text{kg}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDMzNjQyMiw3MzgxNTUxMzgsLTUyNT
-A3OTcxNywtMTI3MzY5MzQzOSwtMTA5ODk5NjIyNCw4MDQ0OTA1
-NjEsMTAzMTY2MTIwMSwxNjU3NTEzMjYwLDE4OTYzMjYzMDMsMT
-E5MzMwMTU3Myw5MjI5NjA1OTMsNzI2MTYxMjk1XX0=
+eyJoaXN0b3J5IjpbLTIwNDU4MjQ0OTIsNzM4MTU1MTM4LC01Mj
+UwNzk3MTcsLTEyNzM2OTM0MzksLTEwOTg5OTYyMjQsODA0NDkw
+NTYxLDEwMzE2NjEyMDEsMTY1NzUxMzI2MCwxODk2MzI2MzAzLD
+ExOTMzMDE1NzMsOTIyOTYwNTkzLDcyNjE2MTI5NV19
 -->

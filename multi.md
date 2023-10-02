@@ -85,9 +85,14 @@ This is the equation for a cylinder with radius $\sqrt{5}$, since $z$ is arbitra
 ## Cross Product
 The cross product gives us the vector perpendicular to the plane created by two vectors.
 
-It's not communiative, the order DOES matter
+It's not communicative, the order **does** matter.
+
+The magnitude of the cross product is the area created by their triangle as well.
+
+There's several different methods of writing it out; remember that:
+$$|\vec u \times \vec v| = |\vec u|$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTc5MDUxNiwtOTA2NDM4ODgyLDE5NT
+eyJoaXN0b3J5IjpbMTI2ODkwODYyNSwtOTA2NDM4ODgyLDE5NT
 c4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

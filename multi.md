@@ -128,8 +128,12 @@ When drawing out the triangle of vectors, make sure that they **diverge** from t
 $\dot A=(0,0,0) \\ \dot B=(3,0,1) \\ \dot C=(1,1,0)$
 
 The magnitude of the cross product is the area created by their triangle
+
+### Finding a vector parallel to a line going through a point
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MD
-Y0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1
-NjY0XX0=
+eyJoaXN0b3J5IjpbMjQ0MzUxMzQ0LC02MTg0MTE3NjUsMTA0ND
+Q5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0
+MywtMTgzNTE3NTY2NF19
 -->

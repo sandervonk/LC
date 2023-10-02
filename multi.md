@@ -78,9 +78,9 @@ $x^2+y^2=\left(\sqrt{5}\right)^2$
 
 This is the equation for a cylinder with radius $\sqrt{5}$, since $z$ is arbitrary. However, we know that $z$ must equal $2$ for this equation for it to intersect, so we can take the slice at $z=2$, which leaves us with a circle.
 
-### Example 2
+# Dot Products
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MD
-c0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjU2NTExMDksLTkwNjQzODg4MiwxOT
+U3ODc5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
 -->

@@ -118,9 +118,9 @@ A_x B_y - A_y B_x
 When drawing out the triangle of vectors, make sure that they **diverge** from the same point
 
 #### Example:
-The area of the triangle with veriticies:
-$\$
+> The area of the triangle with vertices:  
+$\dot A=(0,0,0) \\ \dot B=(3,0,1) \\ \dot C=(1,1,0)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODk5MDU4MiwtOTA2NDM4ODgyLDE5NT
+eyJoaXN0b3J5IjpbLTk2OTQ3MzY5NywtOTA2NDM4ODgyLDE5NT
 c4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

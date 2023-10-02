@@ -1,3 +1,5 @@
+# Multivariable Calculus Notes
+
 # Day 1: Basics of Vectors
 
 ## Parallel Vectors
@@ -111,6 +113,6 @@ A_x B_z - A_z B_x
 A_x B_y - A_y B_x
 \right)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxOTAzODIsLTkwNjQzODg4MiwxOTU3OD
-c5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbMTIyMTU2OTQ3NywtOTA2NDM4ODgyLDE5NT
+c4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

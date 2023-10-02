@@ -1,4 +1,4 @@
-# Basics of Vectors
+# Day 1: Basics of Vectors
 
 ## Parallel Vectors
 $\vec u$ and $\vec u$ are parallel if $\vec u$ can be expressed as some scalar constant times $\vec v$:  
@@ -78,9 +78,16 @@ $x^2+y^2=\left(\sqrt{5}\right)^2$
 
 This is the equation for a cylinder with radius $\sqrt{5}$, since $z$ is arbitrary. However, we know that $z$ must equal $2$ for this equation for it to intersect, so we can take the slice at $z=2$, which leaves us with a circle.
 
-# Dot Products
+# Day 2: ?
+
+# Day 3: Lines & Planes
+
+## Cross Product
+The cross product gives us the vector perpendicular to the plane created by two vectors.
+
+It's not communiative, the order DOES matter
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU2NTExMDksLTkwNjQzODg4MiwxOT
-U3ODc5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTg0MTc5MDUxNiwtOTA2NDM4ODgyLDE5NT
+c4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

@@ -90,9 +90,27 @@ It's not communicative, the order **does** matter.
 The magnitude of the cross product is the area created by their triangle as well.
 
 There's several different methods of writing it out; remember that:
-$$|\vec u \times \vec v| = |\vec u|$$
+$$|\vec u \times \vec v| = |\vec u|*|\vec v|*\sin{\Theta}$$
 
+To find the cross product, we'll set up the matrix in the format:
+
+$$\begin{bmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
+A_x & A_y & A_z \\
+B_x & B_y & B_z 
+\end{bmatrix}$$
+
+which has a determinant (cross product) of:
+
+$$\vec{A} \times \vec{B} \ = \ 
+\hat{i}\left(
+A_y B_z - A_z B_y
+\right) - \hat{j}\left(
+A_x B_z - A_z B_x
+\right) + \hat{k}\left(
+A_x B_y - A_y B_x
+\right)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODkwODYyNSwtOTA2NDM4ODgyLDE5NT
-c4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbODQxOTAzODIsLTkwNjQzODg4MiwxOTU3OD
+c5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
 -->

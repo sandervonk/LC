@@ -96,7 +96,6 @@ The cross product gives us the vector perpendicular to the plane created by two 
 
 It's not communicative, the order **does** matter.
 
-The magnitude of the cross product is the area created by their triangle as well.
 
 There's several different methods of writing it out; remember that:
 $$|\vec u \times \vec v| = |\vec u|*|\vec v|*\sin{\Theta}$$
@@ -127,7 +126,10 @@ When drawing out the triangle of vectors, make sure that they **diverge** from t
 #### Example:
 > The area of the triangle with vertices:  
 $\dot A=(0,0,0) \\ \dot B=(3,0,1) \\ \dot C=(1,1,0)$
+
+The magnitude of the cross product is the area created by their triangle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NT
-c4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MD
+Y0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1
+NjY0XX0=
 -->

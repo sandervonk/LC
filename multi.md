@@ -182,9 +182,13 @@ To do so, we can use systems of equations, to find if there's a point $t=c$ wher
 
 Solve only two of them, then keep the last component for later! (we haven't gone over this yet so I'm a little lost)
 
-###### The $x$-component
+###### $\textcircled meow$  The $x$-component
 > $r_{1, x} = r_{2, x}$  
 > $1+6t = 10+3s$   
+
+###### The $y$-component
+> $r_{1, y} = r_{2, y}$  
+> $3-7t = 6+s$   
 
 
 Util:
@@ -193,8 +197,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTQwOTE1MywtMTc3NTA4NDE5NSwtMT
-E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
-ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
-0=
+eyJoaXN0b3J5IjpbLTE0NzQzMzI5MDAsLTE3NzUwODQxOTUsLT
+ExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4
+ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF
+19
 -->

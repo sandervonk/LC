@@ -1,7 +1,7 @@
 # Multivariable Calculus Notes
 
-# Important Info
-> The test will be on chapters **12.1 - 12.4**
+## Important Info
+> The upcoming test will be on chapters **12.1 - 12.4**
 > - **12.1**: 
 > - **12.2**: 
 > - **12.3**: 
@@ -131,9 +131,12 @@ The magnitude of the cross product is the area created by their triangle
 
 ### Finding a vector parallel to a line going through a point
 
+Lines in sp
 
+
+## Day 4: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MzUxMzQ0LC02MTg0MTE3NjUsMTA0ND
+eyJoaXN0b3J5IjpbODY2OTk2MDU2LC02MTg0MTE3NjUsMTA0ND
 Q5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0
 MywtMTgzNTE3NTY2NF19
 -->

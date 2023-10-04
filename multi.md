@@ -136,9 +136,9 @@ Lines in space can be created by parametrizing the function of a line,
 Create the vector connecting the two points, which will be parallel, then transform it to go through the first point!
 
 
-## Day 4: 
+# Day 4: 
 
-### Line between two points:  
+## Line between two points:  
 >$\dot P = \left\langle x_0, y_0, z_0 \right\rangle$  
 >$\dot Q = \left\langle x, y, z \right\rangle$  
 
@@ -146,89 +146,89 @@ $\vec{PQ} = \left\langle x-x_0, y-y_0, z-z_0 \right\rangle$
 
 We know that $\overline{PQ} \parallel \vec{PQ}$, so we can start creating our vector valued function:
 
-#### Vector Valued Function Form
+### Vector Valued Function Form
 > $\left\langle x-x_0, y-y_0, z-z_0 \right\rangle = \left\langle at, bt, ct \right\rangle$  
 
-#### Parametric Form
+### Parametric Form
 > $x-x_o = at$,  
 $y-y_o = bt$,  
 $z-z_0 = ct$
 
-#### Symmetric Form
+### Symmetric Form
 > $\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$
 
-### Intersection of Lines
+## Intersection of Lines
 Determine which of the following the lines are:
 > 1. **Intersecting**: Intersect at a point
 > 2. **Parallel**: Have the same direction
 > 3. **Skewed**: Not parallel, but do not intersect (only possible in $\mathbb R^3$ or higher)
 
-#### Example
+### Example
 A typical problem might look like:
 > Determine if thel ines intersect, are parallel, or skew. If they intersect, find the point of intersection:  
 > 1. $\vec r_1(t) = \left\langle 1+6t, 3-7t, 2+t \right\rangle$  (this is $L_1$)
 > 2. $\vec r_2(s) = \left\langle 1+6s, 3-7s, 2+s \right\rangle$  (this is $L_2$)
 
-##### Parallel:  
+#### Parallel:  
 > $\vec v_1 = \langle<6, -7, 1>$  
 $\vec v_2 = \langle<3, 1, 4>$  
 $\frac{6}{3} \neq \frac{-7}{1}$  
 **Not parallel**
 
-##### Intersection - Systems
+#### Intersection - Systems
 Since they are not parallel, we need to check if they intersect!
 
 To do so, we can use systems of equations, to find if there's a point $t=c$ where the $x$, $y$, and $z$-components of the vectors are equal.
 
 Solve only two of them, then keep the last component for later! (we haven't gone over this yet so I'm a little lost)
 
-###### $\text {\textcircled{1}}$  The $x$-component
+##### $\text {\textcircled{1}}$  The $x$-component
 > $r_{1, x} = r_{2, x}$  
 > $1+6t = 10+3s$   
 
-###### $\text {\textcircled{2}}$  The $y$-component
+##### $\text {\textcircled{2}}$  The $y$-component
 > $r_{1, y} = r_{2, y}$  
 > $3-7t = 6+s$   
 
-###### $\text {\textcircled{3}}$  The $z$-component
+##### $\text {\textcircled{3}}$  The $z$-component
 > $r_{1, z} = r_{2, z}$  
 > $2+t = 14+4s$   
 
-##### Intersection - Solving
+#### Intersection - Solving
 To find if there's a point, pick two of the component equations above and solve them as a system. Then, plug in the third that you haven't used yet, and try to see if there's a valid solution
 
-###### Solving with $\text {\textcircled{1}}$ and $\text {\textcircled{2}}$
+##### Solving with $\text {\textcircled{1}}$ and $\text {\textcircled{2}}$
 
 ...
 
-##### Composite Solution
+#### Composite Solution
 The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
 
-### Planes
+## Planes
 Planes are **surfaces**. To the best of my knowledge, they should have at least **two** arbitrary components, 
 - **one** would make a line 
 - **two** would make a point  
 
 However, it's very possible to have **three** arbitrary components that relate to each other in such a way to form a plane
 
-#### Simple Examples:
+### Simple Examples:
 > $x=4$  
 > $y=2$  
 > $z=-1$  
 
-#### Equation of a Plane
-**Given**: 
+### Equation of a Plane
+#### **Given**: 
 - a point on the plane $\dot P_0 = (x_0, y_0, z_0)$, and
 - vector normal to the plane (perpendicular to every vector contained in the plane--any line on the plane); $\vec n \perp \vec{PQ}$; $\vec n = \langle a,b,c \rangle$
 
-**Find**:
+#### **Find**:
 - a second point on the plane $\dot Q = (x, y, z)$
 
-**Solution**:
+#### **Solution**:
 - $a(x-x_0) + b(y-y_0) + c(z-z_0) = 0$
 
-#### Example Problem:
-##### Example 1
+### Example Problem:
+#### Example 1
 > Find the equation of the plane passing through the point $(5,3,5)$ and perpendicular to the vector $2\hat i - 3 \hat j + \hat k$.  
 
 $a(x-x_0) + b(y-y_0) + c(z-z_0) = 0$  
@@ -236,10 +236,10 @@ $2(x-5) - 3(y-3) + 1(z-5) = 0$
 $2(x-5) - 3(y-3) + 1(z-5) = 0$  
 $2x - 3y + z = 6$  
 
-#### Parallel and Orthogonal Planes
+### Parallel and Orthogonal Planes
 To find if planes are perpendicular or parallel, find the dot product of their normal vectors $\vec n$.
 
-##### Example 1
+#### Example 1
 > Determine if the planes are perpendicular, parallel, or neither:  
 > $x+2y-z=2$  
 > $2x-2y+z=1$  
@@ -247,17 +247,17 @@ To find if planes are perpendicular or parallel, find the dot product of their n
 $\vec n_1 = \langle 1,2,-1 \rangle$  
 $\vec n_2 = \langle 2,-2,1 \rangle$  
 
-###### Checking if they're parallel
+##### Checking if they're parallel
 $\vec n_1$ is not a scalar multiple of $\vec n_2$, so they're **not parallel**  
-###### Checking if they're perpendicular
+##### Checking if they're perpendicular
 $\vec n_1 \cdot \vec n_2 = 2-4-1 = -3$  
 $\vec n_1 \cdot \vec n_2 = 3 \neq 1$  
 They are **not perpendicular**
 
-###### Solution
+##### Solution
 They are neither parallel nor perpendicular.
 
-###### Tips
+##### Tips
 We can find the normal vector using the cross product.
 
 
@@ -270,8 +270,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMxMTE4MjIsLTEyODM4MTcyMzgsLT
-E3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5
-ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0My
-wtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbMTg5MjAxOTI2MCwtMTY5MzExMTgyMiwtMT
+I4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQx
+MTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OS
+wxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
 -->

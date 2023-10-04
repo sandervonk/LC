@@ -156,8 +156,14 @@ $z-z_0 = ct$
 
 #### Symmetric Form
 > $\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$
+
+### Intersection of Lines
+Determine which of the following the lines are:
+> 1. **Intersecting**: Intersect at a point
+> 2. **Parallel**: Have the same direction
+> 3. **Skewed**: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0ND
-Q5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0
-MywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbLTkwNTgwMzgxMiwtMTE1ODY0OTcsLTYxOD
+QxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1
+OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
 -->

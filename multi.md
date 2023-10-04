@@ -186,9 +186,13 @@ Solve only two of them, then keep the last component for later! (we haven't gone
 > $r_{1, x} = r_{2, x}$  
 > $1+6t = 10+3s$   
 
-###### $\text {\textcircled{1}}$  The $y$-component
+###### $\text {\textcircled{2}}$  The $y$-component
 > $r_{1, y} = r_{2, y}$  
 > $3-7t = 6+s$   
+
+###### $\text {\textcircled{3}}$  The $z$-component
+> $r_{1, z} = r_{2, z}$  
+> $2+t = 14+4s$   
 
 
 Util:
@@ -197,8 +201,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTg1NTEzNywtMTc3NTA4NDE5NSwtMT
-E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
-ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
-0=
+eyJoaXN0b3J5IjpbLTQxOTQ4MDYzLC0xNzc1MDg0MTk1LC0xMT
+U4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4
+MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ
+==
 -->

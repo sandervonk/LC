@@ -138,7 +138,7 @@ Create the vector connecting the two points, which will be parallel, then transf
 
 # Day 4: 
 
-## Line between two points:  
+## Line between two points  
 >$\dot P = \left\langle x_0, y_0, z_0 \right\rangle$  
 >$\dot Q = \left\langle x, y, z \right\rangle$  
 
@@ -270,8 +270,9 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjAxOTI2MCwtMTY5MzExMTgyMiwtMT
-I4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQx
-MTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OS
-wxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbLTEzOTE4ODU4MTIsMTg5MjAxOTI2MCwtMT
+Y5MzExMTgyMiwtMTI4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1
+ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4OD
+IsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
+
 -->

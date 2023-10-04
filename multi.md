@@ -241,8 +241,11 @@ To find if plarnes are perpendicular or parallel, find the dot product of their 
 
 ##### Example 1
 > Determine if the planes are perpendicular, parallel, or neither:  
-> $x+2y-z=2$
-> $x+2y-z=2$
+> $x+2y-z=2$  
+> $2x-2y+z=1$  
+
+$\vec n_1 = \langle 1,2,-1 \rangle$  
+$\vec n_2 = \langle 1,2,-1 \rangle$  
 
 
 
@@ -255,8 +258,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODgzMjcwOSwtMTI4MzgxNzIzOCwtMT
-c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
-NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
-0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbLTE0MDc1NTM5NzMsLTEyODM4MTcyMzgsLT
+E3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5
+ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0My
+wtMTgzNTE3NTY2NF19
 -->

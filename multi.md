@@ -228,7 +228,9 @@ However, it's very possible to have **three** arbitrary components that relate t
 - $a(x-x_0) + b(y-y_0) + c(z-z_0) = 0$
 
 #### Example Problem:
+##### Example 1
 > Find the equation of the plane passing through the point $(5,3,5)$ and perpendicular to the vector $2\hat i - 3 \hat j + \hat k$.  
+
 
 
 
@@ -240,7 +242,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzIwMTc3NywtMTI4MzgxNzIzOCwtMT
+eyJoaXN0b3J5IjpbLTEwMDI0Mzk4NSwtMTI4MzgxNzIzOCwtMT
 c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
 NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
 0xODM1MTc1NjY0XX0=

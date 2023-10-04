@@ -219,7 +219,7 @@ However, it's very possible to have **three** arbitrary components that relate t
 #### Equation of a Plane
 **Given**: 
 - a point on the plane $\dot P_0 = (x_0, y_0, z_0)$, and
-- vector normal to the plane (perpendicular to every vector contained in the plane--any line on the plane); $\vec $ $\vec n = \langle a,b,c \rangle$
+- vector normal to the plane (perpendicular to every vector contained in the plane--any line on the plane); $\vec n \perp \vec{PQ}$; $\vec n = \langle a,b,c \rangle$
 
 **Find**:
 - a second point on the plane $\dot Q = (x, y, z)$
@@ -247,8 +247,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDQ3MDYyOSwtMTI4MzgxNzIzOCwtMT
-c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
-NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
-0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbLTEwOTQ4NjU5NTgsLTEyODM4MTcyMzgsLT
+E3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5
+ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0My
+wtMTgzNTE3NTY2NF19
 -->

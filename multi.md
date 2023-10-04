@@ -175,7 +175,7 @@ $\vec v_2 = \langle<3, 1, 4>$
 $\frac{6}{3} \neq \frac{-7}{1}$  
 **Not parallel**
 
-##### Intersection
+##### Intersection - Systems
 Since they are not parallel, we need to check if they intersect!
 
 To do so, we can use systems of equations, to find if there's a point $t=c$ where the $x$, $y$, and $z$-components of the vectors are equal.
@@ -194,6 +194,11 @@ Solve only two of them, then keep the last component for later! (we haven't gone
 > $r_{1, z} = r_{2, z}$  
 > $2+t = 14+4s$   
 
+#### Intersection - Solving
+To find if there's a point, pick two of the component equations above and solve them as a system. Then, plug in the third that you haven't used yet, and 
+
+###### a
+
 ##### Composite Solution
 The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
 
@@ -203,7 +208,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTc0ODM3OCwtMTc3NTA4NDE5NSwtMT
+eyJoaXN0b3J5IjpbMTQ4ODM2OTk2MSwtMTc3NTA4NDE5NSwtMT
 E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
 ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
 0=

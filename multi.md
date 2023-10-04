@@ -154,9 +154,9 @@ $y-y_o = bt$,
 $z-z_0 = ct$
 
 #### Symmetric Form
-> > $\frac{x-x_o}{a} = \frac{y-y_o}{b}$
+> $\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzgzODA0NywtNjE4NDExNzY1LDEwND
+eyJoaXN0b3J5IjpbLTg5NDEwNzQwMywtNjE4NDExNzY1LDEwND
 Q0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3
 NDMsLTE4MzUxNzU2NjRdfQ==
 -->

@@ -138,7 +138,7 @@ Create the vector connecting the two points, which will be parallel, then transf
 
 ## Day 4: 
 
-Line between two points:  
+### Line between two points:  
 >$\dot P = \left\langle x_0, y_0, z_0 \right\rangle$  
 >$\dot Q = \left\langle x, y, z \right\rangle$  
 
@@ -147,9 +147,16 @@ $\vec{PQ} = \left\langle x-x_0, y-y_0, z-z_0 \right\rangle$
 We know that $\overline{PQ} \parallel \vec{PQ}$, so we can start creating our vector valued function
 
 $\left\langle x-x_0, y-y_0, z-z_0 \right\rangle = \left\langle at, bt, ct \right\rangle$  
-$x-x_o = at$
+
+#### Parametric Form
+> $x-x_o = at$,  
+$y-y_o = bt$,  
+$z-z_0 = ct$
+
+#### Symmetric Form
+> > $\frac{x-x_o}{a} = \frac{y-y_o}{b}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI3NTg3MTUsLTYxODQxMTc2NSwxMD
-Q0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5
-NzQzLC0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbMTI2NzgzODA0NywtNjE4NDExNzY1LDEwND
+Q0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3
+NDMsLTE4MzUxNzU2NjRdfQ==
 -->

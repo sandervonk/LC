@@ -163,8 +163,17 @@ Determine which of the following the lines are:
 > 2. **Parallel**: Have the same direction
 > 3. **Skewed**: Not parallel, but do not intersect (only possible in $\mathbb R^3$ or higher)
 
+A typical problem might look like:
+> Determine if thel ines intersect, are parallel, or skew. If they intersect, find the point of intersection:  
+> 1. $\vec r_2 = \left\langle \right\rangle$
+
+
+
+Util:
+
+\left\langle \right\rangle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5MzA0OTQ2LC0xMTU4NjQ5NywtNjE4ND
-ExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5
-LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTYyNDk3NTUwMywtMTE1ODY0OTcsLTYxOD
+QxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1
+OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
 -->

@@ -199,6 +199,8 @@ To find if there's a point, pick two of the component equations above and solve 
 
 ###### Solving with $\text {\textcircled{1}}$ and $\text {\textcircled{2}}$
 
+...
+
 ##### Composite Solution
 The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
 
@@ -208,7 +210,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzgxMTk5OSwtMTc3NTA4NDE5NSwtMT
+eyJoaXN0b3J5IjpbMjA3NDQ0Mzc2NywtMTc3NTA4NDE5NSwtMT
 E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
 ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
 0=

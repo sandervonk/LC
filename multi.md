@@ -180,9 +180,11 @@ Since they are not parallel, we need to check if they intersect!
 
 To do so, we can use systems of equations, to find if there's a point $t=c$ where the $x$, $y$, and $z$-components of the vectors are equal.
 
+Solve only two of them, then keep the last component for later! (we haven't gone over this yet so I'm a little lost)
+
 ###### The $x$-component
-> $r_{1, x}$  
-> $1+6t$  
+> $r_{1, x} = r_{2, x}$  
+> $1+6t = 10+3s$   
 
 
 Util:
@@ -191,7 +193,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzQ1OTk2NSwtMTc3NTA4NDE5NSwtMT
+eyJoaXN0b3J5IjpbMTg2OTQwOTE1MywtMTc3NTA4NDE5NSwtMT
 E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
 ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
 0=

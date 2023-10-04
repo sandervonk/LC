@@ -236,6 +236,14 @@ $2(x-5) - 3(y-3) + 1(z-5) = 0$
 $2(x-5) - 3(y-3) + 1(z-5) = 0$  
 $2x - 3y + z = 6$  
 
+#### Parallel and Orthogonal Planes
+To find if plarnes are perpendicular or parallel, find the dot product of their normal vectors $\vec n$.
+
+##### Example 1
+> Determine if the planes are perpendicular, parallel, or neither:  
+> $x+2y-z=2$
+> $x+2y-z=2$
+
 
 
 
@@ -247,8 +255,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ4NjU5NTgsLTEyODM4MTcyMzgsLT
-E3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5
-ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0My
-wtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbMjAwODgzMjcwOSwtMTI4MzgxNzIzOCwtMT
+c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
+NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
+0xODM1MTc1NjY0XX0=
 -->

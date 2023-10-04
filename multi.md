@@ -245,7 +245,11 @@ To find if plarnes are perpendicular or parallel, find the dot product of their 
 > $2x-2y+z=1$  
 
 $\vec n_1 = \langle 1,2,-1 \rangle$  
-$\vec n_2 = \langle 1,2,-1 \rangle$  
+$\vec n_2 = \langle 2,-2,1 \rangle$  
+
+###### Checking if they're parallel
+$\vec n_1$ is not a scalar multiple of $\vec n_2$, so they're not parallel  
+$\vec n_1 \cdot \vec n_2 = 2-4-1$
 
 
 
@@ -258,8 +262,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc1NTM5NzMsLTEyODM4MTcyMzgsLT
-E3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5
-ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0My
-wtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbLTQ2ODQ5NTg3MywtMTI4MzgxNzIzOCwtMT
+c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
+NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
+0xODM1MTc1NjY0XX0=
 -->

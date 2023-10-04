@@ -254,11 +254,12 @@ $\vec n_1 \cdot \vec n_2 = 2-4-1 = -3$
 $\vec n_1 \cdot \vec n_2 = 3 \neq 1$  
 They are **not perpendicular**
 
+###### Solution
+They are neither parallel nor perpendicular.
+
 ###### Tips
 We can find the normal vector using the cross product.
 
-###### Solution
-They are neither parallel nor perpendicular.
 
 
 
@@ -269,8 +270,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI1MDM1MiwtMTI4MzgxNzIzOCwtMT
-c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
-NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
-0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbLTE2OTMxMTE4MjIsLTEyODM4MTcyMzgsLT
+E3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5
+ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0My
+wtMTgzNTE3NTY2NF19
 -->

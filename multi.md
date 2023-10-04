@@ -167,7 +167,7 @@ Determine which of the following the lines are:
 A typical problem might look like:
 > Determine if thel ines intersect, are parallel, or skew. If they intersect, find the point of intersection:  
 > 1. $\vec r_1(t) = \left\langle 1+6t, 3-7t, 2+t \right\rangle$  (this is $L_1$)
-> 2. $\vec r_2(t) = \left\langle 1+6t, 3-7t, 2+t \right\rangle$  (this is $L_2$)
+> 2. $\vec r_2(s) = \left\langle 1+6s, 3-7s, 2+s \right\rangle$  (this is $L_2$)
 
 ##### Parallel:  
 > $\vec v_1 = \langle<6, -7, 1>$  
@@ -175,7 +175,7 @@ $\vec v_2 = \langle<3, 1, 4>$
 $\frac{6}{3} \neq \frac{-7}{1}$  
 **Not parallel**
 
-##### Intersect
+##### Intersection
 Since they are not parallel, we need to check if they intersect!
 
 To do so, we can use systems of equations, to find if there's a point $t=c$ where the $x$, $y$, and $z$-components of the vectors are equal.
@@ -194,6 +194,8 @@ Solve only two of them, then keep the last component for later! (we haven't gone
 > $r_{1, z} = r_{2, z}$  
 > $2+t = 14+4s$   
 
+##### Composite Solution
+The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
 
 Util:
 
@@ -201,8 +203,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTQ4MDYzLC0xNzc1MDg0MTk1LC0xMT
-U4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4
-MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ
-==
+eyJoaXN0b3J5IjpbMTc0OTc0ODM3OCwtMTc3NTA4NDE5NSwtMT
+E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
+ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
+0=
 -->

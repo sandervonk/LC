@@ -178,7 +178,10 @@ $\frac{6}{3} \neq \frac{-7}{1}$
 ##### Intersect
 Since they are not parallel, we need to check if they intersect!
 
-To do so, we can use systems of equations, to find if there's a point 
+To do so, we can use systems of equations, to find if there's a point $t=c$ where the $x$, $y$, and $z$-components of the vectors are equal.
+
+###### The $x$-component
+> 
 
 
 Util:
@@ -187,7 +190,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMTQ5MTY3LC0xMTU4NjQ5NywtNjE4ND
-ExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5
-LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTE3NzUwODQxOTUsLTExNTg2NDk3LC02MT
+g0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NTc4Nzkz
+NTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

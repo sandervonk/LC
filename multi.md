@@ -144,11 +144,12 @@ Line between two points:
 
 $\vec{PQ} = \left\langle x-x_0, y-y_0, z-z_0 \right\rangle$
 
-$\overline{PQ} \parallel \vec v$
+We know that $\overline{PQ} \parallel \vec{PQ}$, so we can start creating our vector valued function
 
-$\overline{PQ} \parallel \vec v$
+$\left\langle x-x_0, y-y_0, z-z_0 \right\rangle = \left\langle at, bt, ct \right\rangle$  
+$x-x_o = at$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgxMDkwOTcsLTYxODQxMTc2NSwxMD
+eyJoaXN0b3J5IjpbLTIwNjI3NTg3MTUsLTYxODQxMTc2NSwxMD
 Q0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5
 NzQzLC0xODM1MTc1NjY0XX0=
 -->

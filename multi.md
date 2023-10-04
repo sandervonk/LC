@@ -181,7 +181,8 @@ Since they are not parallel, we need to check if they intersect!
 To do so, we can use systems of equations, to find if there's a point $t=c$ where the $x$, $y$, and $z$-components of the vectors are equal.
 
 ###### The $x$-component
-> 
+> $r_{1, x}$  
+> $1+6t$  
 
 
 Util:
@@ -190,7 +191,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUwODQxOTUsLTExNTg2NDk3LC02MT
-g0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NTc4Nzkz
-NTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbMTQzNzQ1OTk2NSwtMTc3NTA4NDE5NSwtMT
+E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
+ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
+0=
 -->

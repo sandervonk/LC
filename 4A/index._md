@@ -1,0 +1,185 @@
+# Lon Capa 4A Guided Solutions
+
+## LC4A-1
+### Question Text
+> A constant force of 54.3 N, directed at 27.5° from horizontal, pulls a mass of 15.3 kg horizontally a distance of 2.85 m. Calculate the work done by the force.
+(in J)
+
+### Summary
+Work = $F*d*\cos(\theta)$
+
+---
+
+$54.3*\cos(27.5\degree)*2.85$
+
+$137J$
+
+## LC4A-2
+### Question Text
+> A 63.2 kg woman lifts herself 35.2 cm each time she does a chin-up. What force does she exert in lifting herself to the chin position? (in N) **619.36 N**
+
+> And, how much positive work does she do in pulling herself up once? (in J) **218.01 J**
+
+### Summary
+$U_g = mgh$
+
+$F = F_g = mg$
+ 
+$W = U_g = mgh$ or $F*d$
+
+---
+
+$F = 63.2*9.8 = 619.36 N$
+
+$W = U_g = 63.2*9.8*0.352 = 218.01 J$
+
+
+## LC4A-3
+### Question Text
+> What is the work done by the two forces together in moving an object a distance of d = 12 m as shown in the diagram? The magnitude of each force is 7 N (in J) **1.19×10^2 J**
+
+### Summary
+$W = 2*\cos(45\degree)*F*d$
+
+---
+
+$2*\cos(45\degree)*7*12$
+
+## LC4A-4
+### Question Text
+> A force is applied, parallel to the x-axis, to a mass of 0.45 kg, as shown in the graph below.
+
+> How much work is done by the force to move the mass from x = 1.5 m to x = 4.5 m?
+**6.750 J**
+
+> How much work is done by the force to move the mass from x = 4.5 m to x = 9.5 m?
+**8.500 J**
+
+### Summary
+Work is the integral of (area under) the force-time graph
+
+make note of the scales!
+
+
+## LC4A-5
+### Question Text
+> An ideal spring is fixed at one end. A variable force F pulls on the spring. When the magnitude of F reaches a value of 34.3 N, the spring is stretched by 16.1 cm from its equilibrium length. Calculate the additional work required by F to stretch the spring by an additional 12.0 cm from that position (in J) **5.65 J**
+
+### Summary
+Find the spring constant based on 
+hooke's law:
+
+$F = -kx$
+
+$k = -F/x$
+
+then use that in the equation for 
+spring energy:
+
+$U_s = 0.5*k*x^2$
+
+then find the difference:
+
+$\Delta U_s = (0.5*k*(x_i)^2) - 
+(0.5*k*(x_i + \Delta x)^2)$
+
+
+$\Delta U_s = (0.5*(F/x)*(x_i)^2) - 
+(0.5*(F/x)*(x_i + \Delta x)^2)$
+
+$\Delta U_s = (0.5*(F/x))*((x_i)^2 - 
+(x_i + \Delta x)^2)$
+
+---
+
+$\Delta U_s = (0.5*(34.3/0.161))*((0.161)^2 - 
+(0.161 + 0.120)^2)$
+
+$\Delta U_s =-5.65 J$
+
+just ignore the negative
+
+$\Delta U_s = 5.65 J$
+
+
+
+## LC4A-6
+### Question Text
+> A block with a weight of 578 N is pulled up at a constant speed on a very smooth ramp by a constant force. The angle of the ramp with respect to the horizontal is θ = 21.6° and the length of the ramp is l = 14.4 m.
+
+Calculate the work done by the force in pulling the block all the way to the top of the ramp. (Neglect friction.)
+(in J) **3.06×10^3 J**
+
+### Summary
+$U_g = mgh = Wh$
+
+$h = l*\sin(\theta)$
+
+$U_g = W*l*sin(\theta)$
+
+---
+
+$578*\sin(21.6\degree)*14.4$
+
+
+## LC4A-7
+### Question Text
+> With brakes fully applied, a 1290 kg car decelerates from a speed of 72.0 km/hr. What is the work done by the braking force in bringing the car to a stop?
+(in J) **-2.58×105 J**
+
+> What is the change in the kinetic energy of the car?
+(in J) **-2.58×105 J**
+
+### Summary
+$W = \Delta K = K_f - K_i$
+
+$K = 0.5*m*v^2$
+
+$W= \Delta K$ 
+
+$W= K_f - K_i$ 
+
+$W= 0 - K_i$ 
+
+$W= -K_i$ 
+
+$\Delta K = W = -K_i$ 
+
+---
+
+$W = 0 - 0.5*1290kg*(72.0 km/hr)^2$
+
+$W = -258000 J$
+
+$\Delta K = W = -258000 J$
+
+
+## LC4A-8
+### Question Text
+> An 83.6 g arrow is fired from a bow whose string exerts an average force of 92.6 N on the arrow over a distance of 84.2 cm. What is the speed of the arrow as it leaves the bow?
+(in m/s) **43.2 m/s**
+
+### Summary
+$W = \Delta K$
+
+$K = 0.5*m*v^2$
+
+$W = F * d$
+
+$\Delta K = W$
+
+$0.5*m*v^2 = F * d$
+
+$v = sqrt((F*d)/(0.5*m))$
+
+---
+
+$v = sqrt((92.6N*84.2cm)/(0.5*86.6g))$
+
+$v = 42.4 m/s$
+
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTg3ODQ3OTQ1XX0=
+-->

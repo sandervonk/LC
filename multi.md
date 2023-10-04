@@ -248,12 +248,17 @@ $\vec n_1 = \langle 1,2,-1 \rangle$
 $\vec n_2 = \langle 2,-2,1 \rangle$  
 
 ###### Checking if they're parallel
-$\vec n_1$ is not a scalar multiple of $\vec n_2$, so they're not parallel  
+$\vec n_1$ is not a scalar multiple of $\vec n_2$, so they're **not parallel**  
 ###### Checking if they're perpendicular
-$\vec n_1 \cdot \vec n_2 = 2-4-1 = -3$
+$\vec n_1 \cdot \vec n_2 = 2-4-1 = -3$  
+$\vec n_1 \cdot \vec n_2 = 3 \neq 1$  
+They are **not perpendicular**
 
 ###### Tips
+We can find the normal vector using the cross product.
 
+###### Solution
+They are neither parallel nor perpendicular.
 
 
 
@@ -264,8 +269,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNDQ2MTE1LC0xMjgzODE3MjM4LC0xNz
-c1MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1
-MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLT
-E4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTYyNDI1MDM1MiwtMTI4MzgxNzIzOCwtMT
+c3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4
+NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC
+0xODM1MTc1NjY0XX0=
 -->

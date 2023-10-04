@@ -156,9 +156,8 @@ $z-z_0 = ct$
 
 #### Symmetric Form
 > $\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$
-$\vec t$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzIzMjE0MzMsLTYxODQxMTc2NSwxMD
-Q0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5
-NzQzLC0xODM1MTc1NjY0XX0=
+eyJoaXN0b3J5IjpbLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0ND
+Q5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0
+MywtMTgzNTE3NTY2NF19
 -->

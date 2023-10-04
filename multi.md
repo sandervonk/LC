@@ -268,12 +268,12 @@ We can find the normal vector using the cross product.
 
 #### Vector Components
 $\left\langle  
-	\text{content}
+	x, y, z
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzI0MDc1NiwtMTM5MTg4NTgxMiwxOD
-kyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgzODE3MjM4LC0xNzc1
-MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1Mj
-EsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLTE4
-MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTI3OTUzMjEyMywtNjkzMjQwNzU2LC0xMz
+kxODg1ODEyLDE4OTIwMTkyNjAsLTE2OTMxMTE4MjIsLTEyODM4
+MTcyMzgsLTE3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3Nj
+UsMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYw
+NzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

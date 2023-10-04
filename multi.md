@@ -204,20 +204,27 @@ To find if there's a point, pick two of the component equations above and solve 
 ##### Composite Solution
 The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
 
+### Planes
+Planes are **surfaces**. To the best of my knowledge, they s
+
+#### Examples:
+> $x=4$  
+> $y=2$  
+> $z=-1$  
 
 
 
 
 
+### Important LaTeX:
 
-### Important Functions:
-
+#### Vector Components
 $\left\langle  
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NjA0MTUzLC0xNzc1MDg0MTk1LC0xMT
-U4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4
-MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ
-==
+eyJoaXN0b3J5IjpbMTMyNjI1NzIzNywtMTc3NTA4NDE5NSwtMT
+E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
+ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
+0=
 -->

@@ -133,12 +133,18 @@ The magnitude of the cross product is the area created by their triangle
 
 Lines in space can be created by parametrizing the function of a line,  
 **OR**  
-Create the vector connecting the two points, which will be parallel, then transform it to go through
+Create the vector connecting the two points, which will be parallel, then transform it to go through the first point!
 
 
 ## Day 4: 
+
+Line between two points:
+
+$\overline{PQ} \parallel \vec v$
+
+$\overline{PQ} \parallel \vec v$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDA4NjEzMywtNjE4NDExNzY1LDEwND
+eyJoaXN0b3J5IjpbLTgyNzc2ODg2NiwtNjE4NDExNzY1LDEwND
 Q0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3
 NDMsLTE4MzUxNzU2NjRdfQ==
 -->

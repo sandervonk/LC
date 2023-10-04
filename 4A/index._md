@@ -170,16 +170,17 @@ $\Delta K = W$
 
 $0.5*m*v^2 = F * d$
 
-$v = sqrt((F*d)/(0.5*m))$
+$v = \sqrt{(F*d)/(0.5*m)}$
 
 ---
 
-$v = sqrt((92.6N*84.2cm)/(0.5*86.6g))$
+$v = 
+\sqrt{(92.6N*84.2cm)/(0.5*86.6g)}$
 
 $v = 42.4 m/s$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3ODQ3OTQ1XX0=
+eyJoaXN0b3J5IjpbMTY0OTgwNzE1Nyw5ODc4NDc5NDVdfQ==
 -->

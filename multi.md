@@ -163,10 +163,17 @@ Determine which of the following the lines are:
 > 2. **Parallel**: Have the same direction
 > 3. **Skewed**: Not parallel, but do not intersect (only possible in $\mathbb R^3$ or higher)
 
+#### Example
 A typical problem might look like:
 > Determine if thel ines intersect, are parallel, or skew. If they intersect, find the point of intersection:  
 > 1. $\vec r_1(t) = \left\langle 1+6t, 3-7t, 2+t \right\rangle$  (this is $L_1$)
 > 2. $\vec r_2(t) = \left\langle 1+6t, 3-7t, 2+t \right\rangle$  (this is $L_2$)
+
+Parallel:
+$\vec v_1 = \langle<6, -7, 1>$
+$\vec v_2 = \langle<3, 1, 4>$
+$\frac{6}{3} \neq -7\1$
+
 
 
 
@@ -176,7 +183,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMzgyMTQyLC0xMTU4NjQ5NywtNjE4ND
-ExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5
-LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbMTAxMjY5Mzg4MSwtMTE1ODY0OTcsLTYxOD
+QxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1
+OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
 -->

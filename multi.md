@@ -194,10 +194,8 @@ Solve only two of them, then keep the last component for later! (we haven't gone
 > $r_{1, z} = r_{2, z}$  
 > $2+t = 14+4s$   
 
-#### Intersection - Solving
-To find if there's a point, pick two of the component equations above and solve them as a system. Then, plug in the third that you haven't used yet, and 
-
-###### a
+##### Intersection - Solving
+To find if there's a point, pick two of the component equations above and solve them as a system. Then, plug in the third that you haven't used yet, and try to see if there's a valid solution
 
 ##### Composite Solution
 The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
@@ -208,7 +206,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODM2OTk2MSwtMTc3NTA4NDE5NSwtMT
+eyJoaXN0b3J5IjpbLTc1OTc2MTk1MywtMTc3NTA4NDE5NSwtMT
 E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
 ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
 0=

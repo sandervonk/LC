@@ -217,7 +217,10 @@ However, it's very possible to have **three** arbitrary components that relate t
 > $z=-1$  
 
 #### Equation of a Plane
-Given
+**Given**: 
+- a point on the plane $\dot P = (x_0, y_0, z_0)$
+- vector normal to the plane (perpendicular to every vector contained in the plane--any line on the plane) $\vec n = $
+
 
 
 
@@ -229,8 +232,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDc5MjYzMywtMTc3NTA4NDE5NSwtMT
-E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
-ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
-0=
+eyJoaXN0b3J5IjpbLTExNDIzNzQxNzUsLTE3NzUwODQxOTUsLT
+ExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4
+ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF
+19
 -->

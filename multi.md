@@ -138,13 +138,17 @@ Create the vector connecting the two points, which will be parallel, then transf
 
 ## Day 4: 
 
-Line between two points:
+Line between two points:  
+>$\dot P = \left\langle x_0, y_0, z_0 \right\rangle$  
+>$\dot Q = \left\langle x, y, z \right\rangle$  
+
+$\vec{PQ} = \left\langle x-x_0, y-y_0, z-z_0 \right\rangle$
 
 $\overline{PQ} \parallel \vec v$
 
 $\overline{PQ} \parallel \vec v$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzc2ODg2NiwtNjE4NDExNzY1LDEwND
-Q0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3
-NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTExNTgxMDkwOTcsLTYxODQxMTc2NSwxMD
+Q0NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5
+NzQzLC0xODM1MTc1NjY0XX0=
 -->

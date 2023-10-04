@@ -131,12 +131,14 @@ The magnitude of the cross product is the area created by their triangle
 
 ### Finding a vector parallel to a line going through a point
 
-Lines in sp
+Lines in space can be created by parametrizing the function of a line,  
+**OR**  
+Create the vector connecting the two points, which will be parallel, then transform it to go through
 
 
 ## Day 4: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2OTk2MDU2LC02MTg0MTE3NjUsMTA0ND
-Q5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0
-MywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbLTY3NDA4NjEzMywtNjE4NDExNzY1LDEwND
+Q0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3
+NDMsLTE4MzUxNzU2NjRdfQ==
 -->

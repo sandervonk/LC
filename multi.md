@@ -144,9 +144,10 @@ Create the vector connecting the two points, which will be parallel, then transf
 
 $\vec{PQ} = \left\langle x-x_0, y-y_0, z-z_0 \right\rangle$
 
-We know that $\overline{PQ} \parallel \vec{PQ}$, so we can start creating our vector valued function
+We know that $\overline{PQ} \parallel \vec{PQ}$, so we can start creating our vector valued function:
 
-$\left\langle x-x_0, y-y_0, z-z_0 \right\rangle = \left\langle at, bt, ct \right\rangle$  
+#### Vector Valued Function Form
+> $\left\langle x-x_0, y-y_0, z-z_0 \right\rangle = \left\langle at, bt, ct \right\rangle$  
 
 #### Parametric Form
 > $x-x_o = at$,  
@@ -156,7 +157,7 @@ $z-z_0 = ct$
 #### Symmetric Form
 > $\frac{x-x_0}{a} = \frac{y-y_0}{b} = \frac{z-z_0}{c}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDEwNzQwMywtNjE4NDExNzY1LDEwND
-Q0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3
-NDMsLTE4MzUxNzU2NjRdfQ==
+eyJoaXN0b3J5IjpbLTExNTg2NDk3LC02MTg0MTE3NjUsMTA0ND
+Q5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0
+MywtMTgzNTE3NTY2NF19
 -->

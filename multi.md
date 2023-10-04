@@ -205,13 +205,19 @@ To find if there's a point, pick two of the component equations above and solve 
 The vector-valued functions $\vec r_1(t)$ and $\vec r_2(s)$ are **skewed**. There is thus **no point of intersection**.
 
 ### Planes
-Planes are **surfaces**. To the best of my knowledge, they s
+Planes are **surfaces**. To the best of my knowledge, they should have at least **two** arbitrary components, 
+- **one** would make a line 
+- **two** would make a point  
+
+However, it's very possible to have **three** arbitrary components that relate to each other in such a way to form a plane
 
 #### Examples:
 > $x=4$  
 > $y=2$  
 > $z=-1$  
 
+#### Equation of a Plane
+Given
 
 
 
@@ -223,7 +229,7 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjI1NzIzNywtMTc3NTA4NDE5NSwtMT
+eyJoaXN0b3J5IjpbLTczNDc5MjYzMywtMTc3NTA4NDE5NSwtMT
 E1ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4
 ODIsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX
 0=

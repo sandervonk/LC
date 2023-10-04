@@ -218,7 +218,7 @@ However, it's very possible to have **three** arbitrary components that relate t
 
 #### Equation of a Plane
 **Given**: 
-- a point on the plane $\dot P = (x_0, y_0, z_0)$
+- a point on the plane $\dot P = (x_0, y_0, z_0), and
 - vector normal to the plane (perpendicular to every vector contained in the plane--any line on the plane) $\vec n = \langle a,b,c \rangle$
 
 **Find**:
@@ -235,7 +235,8 @@ $\left\langle
 	\text{content}
 \right\rangle$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MDAyOTcsLTE3NzUwODQxOTUsLTExNT
-g2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4ODgy
-LDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+eyJoaXN0b3J5IjpbLTEyODM4MTcyMzgsLTE3NzUwODQxOTUsLT
+ExNTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4
+ODgyLDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF
+19
 -->

@@ -18,11 +18,11 @@ $U_g = mgh$
 
 $U_g = mg*\Delta y$
 
-for the first part, delta y is the negative distance from the ball to the ceiling (the displacement of the ball from the ceiling)
+for the first part, $\Delta y$ is the negative distance from the ball to the ceiling (the displacement of the ball from the ceiling)
 
-for the second part, the delta y is the displacement from the ball to the floor (distance from the ceiling to the floor minus the length of the string)
+for the second part, the $\Delta y$ is the displacement from the ball to the floor (distance from the ceiling to the floor minus the length of the string)
 
-for the last part, delta y is 0
+for the last part, $\Delta y$ is 0
 
 ## LC4B-2
 ### Question Text
@@ -181,5 +181,5 @@ $v = \sqrt{(0.5*381*(0.095^2) +
 4.0*9.8*0.5*0.095) / (0.5*4.0)}$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODU2OTk4NSwtMTY4Nzg4MjIzOV19
+eyJoaXN0b3J5IjpbMTE5NDg4ODM1NywtMTY4Nzg4MjIzOV19
 -->

@@ -14,9 +14,9 @@
 (in J) **0.00 J**
 
 ### Summary
-U_g = mgh
+$U_g = mgh$
 
-U_g = mg*delta y
+$U_g = mg*\Delta y$
 
 for the first part, delta y is the negative distance from the ball to the ceiling (the displacement of the ball from the ceiling)
 
@@ -65,7 +65,7 @@ for 3 sigfigs)
 ------
 
 TME stays constant, therefore the 
-same at Y = 2.10e5 again
+same at $Y = 2.10*10^5$ again
 
 ---
 
@@ -75,8 +75,7 @@ $E_i = E_f$
 
 $U_gi + K_i = U_gf + K_f$
 
-$20.0*9.8*548 + 1.0259e5 = h*548*9.8 
-+ 1.9120e5$
+$20.0*9.8*548 + 1.0259e5 = h*548*9.8 + 1.9120e5$
 
 $h = (20.0*9.8*548 + 1.0259e5 - 
 1.9120e5) / (9.8*548)$
@@ -121,15 +120,15 @@ $W' = 3930*5.42$
 
 $mgh = 0.5*m*v^2 + W'$
 
-$m*g*(h*\sin{theta}) = 0.5*m*v^2 + 
+$m*g*(h*\sin{\theta}) = 0.5*m*v^2 + 
 F_f*d$
 
 
-$2390*9.8*(5.43*\sin{20.72\degree)) = 
+$2390*9.8*(5.43*\sin{(20.72\degree)}) = 
 0.5*2390*v^2 + 
 3930*5.42$
 
-$v^2 = (2390*9.8*(5.43*sin(20.72\degree)) - 3930*5.42)/(0.5*2390)$
+$v^2 = (2390*9.8*(5.43*\sin{(20.72\degree)}) - 3930*5.42)/(0.5*2390)$
 
 
 
@@ -182,5 +181,5 @@ $v = \sqrt{(0.5*381*(0.095^2) +
 4.0*9.8*0.5*0.095) / (0.5*4.0)}$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjI0MTk2MiwtMTY4Nzg4MjIzOV19
+eyJoaXN0b3J5IjpbLTc4ODU2OTk4NSwtMTY4Nzg4MjIzOV19
 -->

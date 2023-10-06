@@ -1,0 +1,186 @@
+# Lon Capa 4B Guided Solutions
+
+## LC4B-1
+### Question Text
+> A ball of mass 1.8 kg hangs at the end of a string 1.5 m in length from the ceiling of a room. The height of the room is 3.7 m. 
+
+> What is the gravitational potential energy of the ball relative to the ceiling?
+(in J) **-2.65×10^1 J**
+
+> What is the gravitational potential energy of the ball relative to the floor?
+(in J) **3.88×10^1 J**
+
+> What is the gravitational potential energy (in J) of the ball relative to a point at the same elevation as the ball?
+(in J) **0.00 J**
+
+### Summary
+U_g = mgh
+
+U_g = mg*delta y
+
+for the first part, delta y is the negative distance from the ball to the ceiling (the displacement of the ball from the ceiling)
+
+for the second part, the delta y is the displacement from the ball to the floor (distance from the ceiling to the floor minus the length of the string)
+
+for the last part, delta y is 0
+
+## LC4B-2
+### Question Text
+> A 2 kg mass attached to a spring passes its equilibrium point moving at 390 m/s. If the spring constant is 1250 N/m, what is the maximum displacement of the spring from its equilibrium position? (in m) **15.60 m**
+
+### Summary
+U_s + U_k = 0
+
+U_s = -U_k
+
+0.5*x^2*k = 0.5*m*v^2
+
+0.5*x^2*1250 = 0.5*2*390^2
+
+x = sqrt(0.5*2*390^2/(0.5*1250))
+
+x = 15.6
+
+
+## LC4B-3
+### Question Text
+> For the roller coaster track pictured below, x = 20.0 m. A loaded 548 kg roller coaster cart has 1.0259×10^5 J of kinetic energy at point X, and 1.9120×10^5 J of KE at point Y.
+
+> What is the total mechanical energy at point X? (in J) **210000.00 J**
+
+>What is the total mechanical energy at point Y? (in J) **210000.00 J**
+
+> What is the height of the track at point Y? (in m) **3.50 m**
+
+### Summary
+TME at X:
+
+E = U_g + K
+
+E = 20.0*9.8*548 + 1.0259e5
+
+E = 210000.00 J (use scientific form 
+for 3 sigfigs)
+
+------
+
+TME stays constant, therefore the 
+same at Y = 2.10e5 again
+
+---
+
+TME is constant, therefore:
+
+E_i = E_f
+
+U_gi + K_i = U_gf + K_f
+
+20.0*9.8*548 + 1.0259e5 = h*548*9.8 
++ 1.9120e5
+
+h = (20.0*9.8*548 + 1.0259e5 - 
+1.9120e5) / (9.8*548)
+
+h = 3.50m
+
+
+## LC4B-4
+### Question Text
+> A man skis down from the top of a hill 1000.0 m high, starting from rest. If he loses 70% of his initial mechanical energy to friction during his descent, what is his speed in m/s at the base of the hill?
+(in m/s) **7.67×10^1 m/s**
+
+### Summary
+E_f = (1-0.7)*E_i
+
+E_f = 0.3*E_i
+
+U_g*0.3 = K
+
+mgh*0.3 = 0.5*m*v^2
+
+gh*0.3 = 0.5*v^2
+
+gh*0.6 = v^2
+
+v = sqrt(gh*0.6)
+
+v = sqrt(1000*9.8*0.6)
+
+
+## LC4B-5
+### Question Text
+> A 2390-kg car starts from rest at the top of a driveway 5.43 m long that is sloped at 20.72o with the horizontal. If an average friction force of 3930 N impedes the motion, what is the speed of the car at the bottom of the driveway?
+(in m/s) **4.45 m/s**
+
+### Summary
+E_i = E_f + W'
+
+W' = F_f*d
+
+W' = 3930*5.42
+
+mgh = 0.5*m*v^2 + W'
+
+m*g*(h*sin(theta)) = 0.5*m*v^2 + 
+F_f*d
+
+
+2390*9.8*(5.43*sin(20.72deg)) = 
+0.5*2390*v^2 + 
+3930*5.42
+
+v^2 = (2390*9.8*(5.43*sin(20.72deg)) - 3930*5.42)/(0.5*2390)
+
+
+
+
+## LC4B-6
+### Question Text
+> A moving 4.0 kg block collides with a horizontal spring whose spring constant is 381 N/m (see figure). The block compresses the spring a maximum distance of 9.5 cm from its rest position. The coefficient of kinetic friction between the block and the horizontal surface is 0.50. 
+
+> What is the work done by the spring in bringing the block to rest? **-1.72 J**
+
+> How much mechanical energy is being dissipated by the force of friction while the block is being brought to rest by the spring? **1.86 J**
+
+> What is the speed of the block when it hits the spring? **1.34 m/s**
+
+### Summary
+E_i - (E_f + W') = 0
+
+E_i = E_f + W'
+
+E_i = E_f + W_f
+
+E_i = E_f + F_f*d
+
+K_i = U_s + mg*(mu_k)*d
+
+0.5*m*v^2 = 0.5*k*x^2 + mg*(mu_k)*d
+
+0.5*m*v^2 = 0.5*k*d^2 + mg*(mu_k)*d
+
+---
+
+W_s = -U_s = -0.5*k*d^2
+
+W_s = -0.5*381*(0.095^2)
+
+---
+
+W' = W_f = mg*(mu_k)*d
+
+W_f = 4.0*9.8*0.5*0.095
+
+---
+
+0.5*m*v^2 = 0.5*k*d^2 + mg*(mu_k)*d
+
+0.5*4.0*v^2 = 0.5*381*(0.095^2) + 
+4.0*9.8*0.5*0.095
+
+v = sqrt((0.5*381*(0.095^2) + 
+4.0*9.8*0.5*0.095) / (0.5*4.0))
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2ODc4ODIyMzldfQ==
+-->

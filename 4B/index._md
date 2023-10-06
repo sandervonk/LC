@@ -29,17 +29,17 @@ for the last part, delta y is 0
 > A 2 kg mass attached to a spring passes its equilibrium point moving at 390 m/s. If the spring constant is 1250 N/m, what is the maximum displacement of the spring from its equilibrium position? (in m) **15.60 m**
 
 ### Summary
-U_s + U_k = 0
+$U_s + U_k = 0$
 
-U_s = -U_k
+$U_s = -U_k$
 
-0.5*x^2*k = 0.5*m*v^2
+$0.5*x^2*k = 0.5*m*v^2$
 
-0.5*x^2*1250 = 0.5*2*390^2
+$0.5*x^2*1250 = 0.5*2*390^2$
 
-x = sqrt(0.5*2*390^2/(0.5*1250))
+$x = sqrt(0.5*2*390^2/(0.5*1250))$
 
-x = 15.6
+$x = 15.6$
 
 
 ## LC4B-3
@@ -55,11 +55,11 @@ x = 15.6
 ### Summary
 TME at X:
 
-E = U_g + K
+$E = U_g + K$
 
-E = 20.0*9.8*548 + 1.0259e5
+$E = 20.0*9.8*548 + 1.0259*10^5$
 
-E = 210000.00 J (use scientific form 
+$E = 210000.00 J$ (use scientific form 
 for 3 sigfigs)
 
 ------
@@ -71,17 +71,17 @@ same at Y = 2.10e5 again
 
 TME is constant, therefore:
 
-E_i = E_f
+$E_i = E_f$
 
-U_gi + K_i = U_gf + K_f
+$U_gi + K_i = U_gf + K_f$
 
-20.0*9.8*548 + 1.0259e5 = h*548*9.8 
-+ 1.9120e5
+$20.0*9.8*548 + 1.0259e5 = h*548*9.8 
++ 1.9120e5$
 
-h = (20.0*9.8*548 + 1.0259e5 - 
-1.9120e5) / (9.8*548)
+$h = (20.0*9.8*548 + 1.0259e5 - 
+1.9120e5) / (9.8*548)$
 
-h = 3.50m
+$h = 3.50 \text m$
 
 
 ## LC4B-4
@@ -90,21 +90,21 @@ h = 3.50m
 (in m/s) **7.67×10^1 m/s**
 
 ### Summary
-E_f = (1-0.7)*E_i
+$E_f = (1-0.7)*E_i$
 
-E_f = 0.3*E_i
+$E_f = 0.3*E_i$
 
-U_g*0.3 = K
+$U_g*0.3 = K$
 
-mgh*0.3 = 0.5*m*v^2
+$mgh*0.3 = 0.5*m*v^2$
 
-gh*0.3 = 0.5*v^2
+$gh*0.3 = 0.5*v^2$
 
-gh*0.6 = v^2
+$gh*0.6 = v^2$
 
-v = sqrt(gh*0.6)
+$v = sqrt(gh*0.6)$
 
-v = sqrt(1000*9.8*0.6)
+$v = sqrt(1000*9.8*0.6)$
 
 
 ## LC4B-5
@@ -113,23 +113,23 @@ v = sqrt(1000*9.8*0.6)
 (in m/s) **4.45 m/s**
 
 ### Summary
-E_i = E_f + W'
+$E_i = E_f + W'$
 
-W' = F_f*d
+$W' = F_f*d$
 
-W' = 3930*5.42
+$W' = 3930*5.42$
 
-mgh = 0.5*m*v^2 + W'
+$mgh = 0.5*m*v^2 + W'$
 
-m*g*(h*sin(theta)) = 0.5*m*v^2 + 
-F_f*d
+$m*g*(h*sin(theta)) = 0.5*m*v^2 + 
+F_f*d$
 
 
-2390*9.8*(5.43*sin(20.72deg)) = 
+$2390*9.8*(5.43*sin(20.72\degree)) = 
 0.5*2390*v^2 + 
-3930*5.42
+3930*5.42$
 
-v^2 = (2390*9.8*(5.43*sin(20.72deg)) - 3930*5.42)/(0.5*2390)
+$v^2 = (2390*9.8*(5.43*sin(20.72\degree)) - 3930*5.42)/(0.5*2390)$
 
 
 
@@ -182,5 +182,5 @@ v = sqrt((0.5*381*(0.095^2) +
 4.0*9.8*0.5*0.095) / (0.5*4.0))
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc4ODIyMzldfQ==
+eyJoaXN0b3J5IjpbOTMzMTc0NzY2LC0xNjg3ODgyMjM5XX0=
 -->

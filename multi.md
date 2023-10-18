@@ -335,11 +335,7 @@ Another thing we could do is have the three axes be the input components, and ha
 
 
 # 14.2: Limits and Continuity
-## Existence and Continuity
-The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
 
-Additionally, the function is continuous if the limit exists and equals the actual value:
-$$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$$
 
 ## Limit of a Function of Two Variables
 When finding the limit of a function with two variables in $\mathbb R^2$, we adapt the way that we think about the limit to fit our additional dimensions.
@@ -415,6 +411,16 @@ Pretty cool, but also pretty confusing!
 
 **4.2.5** Calculate the limit of a function of three or more variables and verify the continuity of the function at a point.
 
+# Day #
+## Indeterminate Forms
+Indeterminate forms are:
+$$\frac{0}{0}, \ \frac{\infty}{\infty}, \infty - \infty, 1^\infty$$
+
+## Existence and Continuity
+The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
+
+Additionally, the function is continuous if the limit exists and equals the actual value:
+$$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$$
 
 ---
 
@@ -431,10 +437,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOls1NzY5Nz
-M2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEyMywtNjkzMjQwNzU2
-LC0xMzkxODg1ODEyLDE4OTIwMTkyNjAsLTE2OTMxMTE4MjIsLT
-EyODM4MTcyMzgsLTE3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0
-MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNT
-ksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTA0ND
+c1Njg2Niw1NzY5NzM2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEy
+MywtNjkzMjQwNzU2LC0xMzkxODg1ODEyLDE4OTIwMTkyNjAsLT
+E2OTMxMTE4MjIsLTEyODM4MTcyMzgsLTE3NzUwODQxOTUsLTEx
+NTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4OD
+gyLDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+
 -->

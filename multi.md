@@ -2,16 +2,40 @@
 
 ## Important Info
 > The upcoming test will be on chapters **12.1 - 12.4**
-> - **12.1**: 
-> - **12.2**: 
+> - **12.1-12.2**: 
+>   - Vectors
+>   - Parallelogram rule
+>   - Triangle rule
+>   - Position vectors
+>   - Vector operations
+>   - Unit vector in a certain direction
+>   - Unit vector in the direction of given vector
+>   - Canoe problem
+>   - Airplane problem
+>   - Distance formula
+>   - Midpoint formula
+>   - $\hat i$, $\hat j$, $\hat k$
+>   - Graphing simple planes
+>   - Cylinders
+>   - Spheres
 > - **12.3**: 
+>   - Dot/Scalar product
+>   - Angles between vectors
+>   - Properties of dot products
+>   - Orthogonal projections
 > - **12.4**: 
+>   - Cross/Vector product
+>   - Determinant form
+>   - Properties of the cross product
+>   - Area of triangle
+
+### [My test prep resources](./test/1) 
 
 # Day 1: Basics of Vectors
 
 ## Parallel Vectors
 $\vec u$ and $\vec u$ are parallel if $\vec u$ can be expressed as some scalar constant times $\vec v$:  
-$$\vec u = c \cdot \vec v$$  
+$$\vec u = c * \vec v$$  
 where
 $c$ is a scalar, $c \in \mathbb R$
 
@@ -261,8 +285,114 @@ They are neither parallel nor perpendicular.
 ##### Tips
 We can find the normal vector using the cross product.
 
+# 14.1: Functions of Several Variables
+## Functions of Two Variables
+The definition is very similar to the definition for a function of one variable. The main difference being that instead of mapping values of one variable to values of another variable, we map ordered pairs of variables to another variable.
+
+### Graphing Functions of Two Variables
+Graphs of functions with two variables will be in $\mathbb R^3$ and create a surface, an example of which is a plane.
+
+### Level Curves
+We create level curves by approaching the function from the other direction than graphing. Instead of finding the $z$-value for each $(x,y)$-pairing, we graph the curves of $(x,y)$-pairings that correspond to certain $z$-values, normally in uniform step sizes.
+
+![An example of level curves from the elevation of a natural structure](https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230828.164620/resources/f6460d4a5e6fd5089b61ee292d7b584dedc3cdba)
+
+![Level curves in a simple mathematical setting](https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230828.164620/resources/4bf1a902dc2e315d0c4d6b9d99da412b761a1f76)
+
+While level-curves are usually graphed in the $xy$ plane, we can also create traces called **vertical traces** in the $xz$ and $yz$ planes.
+
+## Functions of More Than Two Variables
+These are mostly similar to functions with 2 variables, but have another domain variable included as well. Though harder to graph, these can help us add additional important information into our calculations, such as environmental conditions that are just as important as where a point is in space (the $x$ and $y$-axes) to finding its $z$-component.
+
+Another thing we could do is have the three axes be the input components, and have the output be the color of the surface! 
+
+## Objectives
+**4.1.1** Recognize a function of two variables and identify its domain and range.  
+
+**4.1.2** Sketch a graph of a function of two variables.  
+
+**4.1.3** Sketch several traces or level curves of a function of two variables.  
+
+**4.1.4** Recognize a function of three or more variables and identify its level surfaces.  
 
 
+# 14.2: Limits and Continuity
+## Limit of a Function of Two Variables
+When finding the limit of a function with two variables in $\mathbb R^2$, we adapt the way that we think about the limit to fit our additional dimensions.
+
+Instead of before, when we could think of the limit as a line that slowly got shorter and shorter until it became the point we were examining, in $\mathbb R^2$, we can think of this as a circle that's getting smaller until it becomes the point $(x,y)$
+
+![Limits in $\mathbb R^2$](https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230828.164620/resources/ee3aa76c2cadf54d9abd56499cdb7962b1a8d4e3)
+
+For the limit $$\lim_{(x,y) \to (a,b)} f(x,y)$$ in $\mathbb R^2$, we follow the same laws as with 2d limits, except now we plug in two variables. 
+
+It can be helpful to expand and separate the limits, or perhaps rewrite them as $$\lim_{(x,y) \to (a,b)} f(x,y) = \lim_{x \to a} \left( \lim_{y \to b} f(x,y)\right) $$
+
+Additionally, expanding a limit several smaller ones using the sum/difference rules can help make solving easier.
+
+## Interior Points and Boundary Points
+### Interior Points
+A point $P_0$ is called an interior point of $S$ if there is a $δ$ disk centered around $P_0$ contained completely in $S$.
+### Boundary Points
+A point $P_0$ is called a boundary point of $S$ if every $δ$ disk centered around $P_0$ contains points both inside and outside $S$.
+### Open and Closed Sets
+$S$ is called an **open set** if every point of $S$ is an interior point. 
+
+$S$ is called a **closed set** if it contains all its boundary points.
+
+![a closed set](https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230828.164620/resources/a534e52fae8b2f183d472456e4a363fd324ec41d)
+
+### Connected Sets and Regions
+An open set $S$ is a **connected set** if it cannot be represented as the union of two or more disjoint, nonempty open subsets.
+  
+A set $S$ is a **region** if it is *open*, *connected*, and *nonempty*.
+
+## Continuity of Functions of Two Variables
+particular, three conditions are necessary for $f(x)$ to be continuous at a point $x=a$:
+- $f(a)$ exists.
+- $\lim_{x→a} f(x)$ exists.  
+- $\lim_{x→a} f(x)=f(a)$.
+ 
+These three conditions are necessary for continuity of a function of two variables as well ( continuity at $(x,y)=(a,b)$ ). They just become:
+- $f(a,b)$ exists.
+- $\lim_{(x,y)→(a,b)} f(x,y)$ exists.  
+- $\lim_{(x,y)→(a,b)} f(x,y)=f(a,b)$.
+
+![The composition of two continuous functions is continuous](https://openstax.org/apps/image-cdn/v1/f=webp/apps/archive/20230828.164620/resources/0c8cc40554ec818e0b485bf3f56b1155b7f056ac)
+
+## Functions of Three or More Variables
+To determine the continuity of functions of 3+ variables, we must extend the concept of a $δ$-disk into more than two dimensions.
+
+We can define the $δ$-disk/ball/etc in $n$ dimensions using the equation:
+$$\left\{
+	(x,y,z,... \, ,?) \in \mathbb R^n
+	\mid
+	\sqrt{
+		\left(x-x_0\right)^2 +
+		\left(y-y_0\right)^2 +
+		\left(z-z_0\right)^2 +
+		... +
+		\left(?-?_0\right)^2
+	} < \delta
+\right\}$$
+where there are $n$ components in the point notation, and $n$ items under the radical.
+
+Pretty cool, but also pretty confusing!
+
+
+## Objectives
+**4.2.1** Calculate the limit of a function of two variables.
+
+**4.2.2** Learn how a function of two variables can approach different values at a boundary point, depending on the path of approach.
+
+**4.2.3** State the conditions for continuity of a function of two variables.
+
+**4.2.4** Verify the continuity of a function of two variables at a point.
+
+**4.2.5** Calculate the limit of a function of three or more variables and verify the continuity of the function at a point.
+
+
+---
 
 ### Important LaTeX:
 
@@ -270,10 +400,17 @@ We can find the normal vector using the cross product.
 $\left\langle  
 	x, y, z
 \right\rangle$
+#### Space
+$\mathbb R$, $\mathbb R^2$, $\mathbb R^3$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTUzMjEyMywtNjkzMjQwNzU2LC0xMz
-kxODg1ODEyLDE4OTIwMTkyNjAsLTE2OTMxMTE4MjIsLTEyODM4
-MTcyMzgsLTE3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0MTE3Nj
-UsMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNTksMTYw
-NzQ4OTc0MywtMTgzNTE3NTY2NF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
+FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
+Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
+R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNTAzMz
+Y4ODczLC0yNzk1MzIxMjMsLTY5MzI0MDc1NiwtMTM5MTg4NTgx
+MiwxODkyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgzODE3MjM4LC
+0xNzc1MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0
+OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3ND
+MsLTE4MzUxNzU2NjRdfQ==
 -->

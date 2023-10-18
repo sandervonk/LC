@@ -416,6 +416,8 @@ Pretty cool, but also pretty confusing!
 Indeterminate forms are:
 $$\frac{0}{0}, \ \frac{\infty}{\infty}, \ \infty - \infty, \ 1^\infty$$
 
+We need to use tools such as l'hôpital's role to solve these
+
 ## Existence and Continuity
 The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
 
@@ -437,11 +439,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTExNT
-k5NDE3Miw1NzY5NzM2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEy
-MywtNjkzMjQwNzU2LC0xMzkxODg1ODEyLDE4OTIwMTkyNjAsLT
-E2OTMxMTE4MjIsLTEyODM4MTcyMzgsLTE3NzUwODQxOTUsLTEx
-NTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4OD
-gyLDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNjIxNz
+gwMjA2LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
+LC02OTMyNDA3NTYsLTEzOTE4ODU4MTIsMTg5MjAxOTI2MCwtMT
+Y5MzExMTgyMiwtMTI4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1
+ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4OD
+IsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
 
 -->

@@ -425,7 +425,7 @@ Additionally, the function is continuous if the limit exists and equals the actu
 $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$$
 
 ## Limit solving
-$$\lim_{(x,y)→(0,0)} f(x,y)=f(a,b)$$
+$$\lim_{(x,y)→(0,0)} \frac{x^2-y^2}{x^2+y^2}$$
 
 We look for two parts (curves/lines) on the $xy$-plane that *pass through* the point in question
 
@@ -444,11 +444,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTkwMz
-E1NTQwNiw1NzY5NzM2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEy
-MywtNjkzMjQwNzU2LC0xMzkxODg1ODEyLDE4OTIwMTkyNjAsLT
-E2OTMxMTE4MjIsLTEyODM4MTcyMzgsLTE3NzUwODQxOTUsLTEx
-NTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4OD
-gyLDE5NTc4NzkzNTksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNDEzMT
+M4Nzg1LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
+LC02OTMyNDA3NTYsLTEzOTE4ODU4MTIsMTg5MjAxOTI2MCwtMT
+Y5MzExMTgyMiwtMTI4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1
+ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4OD
+IsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
 
 -->

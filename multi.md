@@ -414,7 +414,7 @@ Pretty cool, but also pretty confusing!
 # Day #
 ## Indeterminate Forms
 Indeterminate forms are:
-$$\frac{0}{0}, \ \frac{\infty}{\infty}, \infty - \infty, 1^\infty$$
+$$\frac{0}{0}, \ \frac{\infty}{\infty}, \ \infty - \infty, \ 1^\infty$$
 
 ## Existence and Continuity
 The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
@@ -437,8 +437,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTA0ND
-c1Njg2Niw1NzY5NzM2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEy
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTExNT
+k5NDE3Miw1NzY5NzM2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEy
 MywtNjkzMjQwNzU2LC0xMzkxODg1ODEyLDE4OTIwMTkyNjAsLT
 E2OTMxMTE4MjIsLTEyODM4MTcyMzgsLTE3NzUwODQxOTUsLTEx
 NTg2NDk3LC02MTg0MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4OD

@@ -285,6 +285,24 @@ They are neither parallel nor perpendicular.
 ##### Tips
 We can find the normal vector using the cross product.
 
+## Functions with multiple variables
+A function $z=f(x,y)$ represents a surface. 
+Examples: planes, cylinders, paraboloids
+
+$$f: \mathbb R \rightarrow \mathbb R^2$$
+
+A **function of two variables** is a rule that assigns to each ordered pair $(x, y) \in D$ a unique real number $f(x,y)$
+
+### Domain and range
+Logs, even roots, and variables in the denominator can all affect the domain, which then translates over to the range.
+
+For example, for a function $$z=x+y$$
+nothing limits the domain (and thus range), so both are just all real numbers. 
+
+The function maps values such as:  
+$$(1,1) \rightarrow 2$$
+$$(2,3) \rightarrow 5$$  
+
 # 14.1: Functions of Several Variables
 ## Functions of Two Variables
 The definition is very similar to the definition for a function of one variable. The main difference being that instead of mapping values of one variable to values of another variable, we map ordered pairs of variables to another variable.
@@ -407,10 +425,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNTAzMz
-Y4ODczLC0yNzk1MzIxMjMsLTY5MzI0MDc1NiwtMTM5MTg4NTgx
-MiwxODkyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgzODE3MjM4LC
-0xNzc1MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0
-OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3ND
-MsLTE4MzUxNzU2NjRdfQ==
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTgxNj
+U4Njg2MCwtMjc5NTMyMTIzLC02OTMyNDA3NTYsLTEzOTE4ODU4
+MTIsMTg5MjAxOTI2MCwtMTY5MzExMTgyMiwtMTI4MzgxNzIzOC
+wtMTc3NTA4NDE5NSwtMTE1ODY0OTcsLTYxODQxMTc2NSwxMDQ0
+NDk4NTIxLC05MDY0Mzg4ODIsMTk1Nzg3OTM1OSwxNjA3NDg5Nz
+QzLC0xODM1MTc1NjY0XX0=
 -->

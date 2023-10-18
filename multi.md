@@ -424,6 +424,11 @@ The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
 Additionally, the function is continuous if the limit exists and equals the actual value:
 $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$$
 
+## Limit solving
+
+
+We look for two parts (curves/lines) on the $xy$-plane that *pass through* the point in question
+
 ---
 
 ### Important LaTeX:
@@ -439,8 +444,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNTA1OD
-c0OTI0LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxMzk1Nj
+YyMDg3LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
 LC02OTMyNDA3NTYsLTEzOTE4ODU4MTIsMTg5MjAxOTI2MCwtMT
 Y5MzExMTgyMiwtMTI4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1
 ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4OD

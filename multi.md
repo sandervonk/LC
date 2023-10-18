@@ -338,6 +338,8 @@ Another thing we could do is have the three axes be the input components, and ha
 ## Existence and Continuity
 The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
 
+Additionally, the function is continuous if the limit exists and equals the actual value:
+$$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$$
 
 ## Limit of a Function of Two Variables
 When finding the limit of a function with two variables in $\mathbb R^2$, we adapt the way that we think about the limit to fit our additional dimensions.
@@ -429,10 +431,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxMTk0Mj
-g0NTYzLC0xODE2NTg2ODYwLC0yNzk1MzIxMjMsLTY5MzI0MDc1
-NiwtMTM5MTg4NTgxMiwxODkyMDE5MjYwLC0xNjkzMTExODIyLC
-0xMjgzODE3MjM4LC0xNzc1MDg0MTk1LC0xMTU4NjQ5NywtNjE4
-NDExNzY1LDEwNDQ0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5Mz
-U5LDE2MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOls1NzY5Nz
+M2NTQsLTE4MTY1ODY4NjAsLTI3OTUzMjEyMywtNjkzMjQwNzU2
+LC0xMzkxODg1ODEyLDE4OTIwMTkyNjAsLTE2OTMxMTE4MjIsLT
+EyODM4MTcyMzgsLTE3NzUwODQxOTUsLTExNTg2NDk3LC02MTg0
+MTE3NjUsMTA0NDQ5ODUyMSwtOTA2NDM4ODgyLDE5NTc4NzkzNT
+ksMTYwNzQ4OTc0MywtMTgzNTE3NTY2NF19
 -->

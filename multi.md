@@ -429,6 +429,15 @@ $$\lim_{(x,y)→(0,0)} \frac{x^2-y^2}{x^2+y^2}$$
 
 We look for two parts (curves/lines) on the $xy$-plane that *pass through* the point in question
 
+### Solving with polar coordinates
+Mostly we'll use this when dealing with limits that approach $(0,0)$.
+
+Just subsitute your terms using:
+$$x=r*\cos \theta 
+\\
+  y=r*\sin\theta$$
+Then subsitute our limit approaching using the fact
+
 ---
 
 ### Important LaTeX:
@@ -444,11 +453,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNDEzMT
-M4Nzg1LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
-LC02OTMyNDA3NTYsLTEzOTE4ODU4MTIsMTg5MjAxOTI2MCwtMT
-Y5MzExMTgyMiwtMTI4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1
-ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4OD
-IsMTk1Nzg3OTM1OSwxNjA3NDg5NzQzLC0xODM1MTc1NjY0XX0=
-
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxMjA1MT
+Q4NDUyLDE0MTMxMzg3ODUsNTc2OTczNjU0LC0xODE2NTg2ODYw
+LC0yNzk1MzIxMjMsLTY5MzI0MDc1NiwtMTM5MTg4NTgxMiwxOD
+kyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgzODE3MjM4LC0xNzc1
+MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1Mj
+EsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLTE4
+MzUxNzU2NjRdfQ==
 -->

@@ -416,7 +416,7 @@ Pretty cool, but also pretty confusing!
 Indeterminate forms are:
 $$\frac{0}{0}, \ \frac{\infty}{\infty}, \ \infty - \infty, \ 1^\infty$$
 
-We need to use tools such as l'hôpital's role to solve these
+We need to use tools such as l'hôpital's role to solve these. Note that **l'hôpital's rule does not apply to more than $\mathbb R^2$**, so there may only be one variable!
 
 ## Existence and Continuity
 The limit exists if $$\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x)$$
@@ -439,8 +439,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNjIxNz
-gwMjA2LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNTA1OD
+c0OTI0LDU3Njk3MzY1NCwtMTgxNjU4Njg2MCwtMjc5NTMyMTIz
 LC02OTMyNDA3NTYsLTEzOTE4ODU4MTIsMTg5MjAxOTI2MCwtMT
 Y5MzExMTgyMiwtMTI4MzgxNzIzOCwtMTc3NTA4NDE5NSwtMTE1
 ODY0OTcsLTYxODQxMTc2NSwxMDQ0NDk4NTIxLC05MDY0Mzg4OD

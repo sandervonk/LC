@@ -436,7 +436,8 @@ Just subsitute your terms using:
 $$x=r*\cos \theta 
 \\
   y=r*\sin\theta$$
-Then subsitute our limit approaching using the fact
+Then subsitute our limit approaching using the fact that $r^2=x^2+y^2$:
+$$\lim_{(x,y)→(0,0)} \Rightarrow \lim_{r→ 0^2 + 0^2} \Rightarrow \lim_{r→ 0}$$
 
 ---
 
@@ -453,8 +454,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxMjA1MT
-Q4NDUyLDE0MTMxMzg3ODUsNTc2OTczNjU0LC0xODE2NTg2ODYw
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNjMzMj
+YxOTgzLDE0MTMxMzg3ODUsNTc2OTczNjU0LC0xODE2NTg2ODYw
 LC0yNzk1MzIxMjMsLTY5MzI0MDc1NiwtMTM5MTg4NTgxMiwxOD
 kyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgzODE3MjM4LC0xNzc1
 MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1Mj

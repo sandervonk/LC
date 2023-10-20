@@ -334,7 +334,7 @@ Another thing we could do is have the three axes be the input components, and ha
 **4.1.4** Recognize a function of three or more variables and identify its level surfaces.  
 
 
-# 14.2: Limits and Continuity
+# 14.3: Partial Derivatives
 
 
 ## Limit of a Function of Two Variables
@@ -454,11 +454,11 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpdmFyaWFibGUgQ2
 FsY3VsdXMgTm90ZXNcbmF1dGhvcjogU2FuZGVyIFZvbmtcbnRh
 Z3M6ICdtdWx0aSxjYWxjdWx1cyx2ZWN0b3JzLGNyb3NzLXByb2
 R1Y3QsZG90LXByb2R1Y3QnXG5jYXRlZ29yaWVzOiBtYXRoXG5k
-YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlsxNjMzMj
-YxOTgzLDE0MTMxMzg3ODUsNTc2OTczNjU0LC0xODE2NTg2ODYw
-LC0yNzk1MzIxMjMsLTY5MzI0MDc1NiwtMTM5MTg4NTgxMiwxOD
-kyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgzODE3MjM4LC0xNzc1
-MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNzY1LDEwNDQ0OTg1Mj
-EsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2MDc0ODk3NDMsLTE4
-MzUxNzU2NjRdfQ==
+YXRlOiAnMjAyMy0wOS0yNSdcbiIsImhpc3RvcnkiOlstMTczNT
+Y0OTUxNiwxNjMzMjYxOTgzLDE0MTMxMzg3ODUsNTc2OTczNjU0
+LC0xODE2NTg2ODYwLC0yNzk1MzIxMjMsLTY5MzI0MDc1NiwtMT
+M5MTg4NTgxMiwxODkyMDE5MjYwLC0xNjkzMTExODIyLC0xMjgz
+ODE3MjM4LC0xNzc1MDg0MTk1LC0xMTU4NjQ5NywtNjE4NDExNz
+Y1LDEwNDQ0OTg1MjEsLTkwNjQzODg4MiwxOTU3ODc5MzU5LDE2
+MDc0ODk3NDMsLTE4MzUxNzU2NjRdfQ==
 -->
